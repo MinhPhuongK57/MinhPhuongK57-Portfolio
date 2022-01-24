@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KenCrystalK57/static/css/main.9d53f027.css",
+    "main.js": "/KenCrystalK57/static/js/main.4f06e752.js",
+    "index.html": "/KenCrystalK57/index.html",
+    "main.9d53f027.css.map": "/KenCrystalK57/static/css/main.9d53f027.css.map",
+    "main.4f06e752.js.map": "/KenCrystalK57/static/js/main.4f06e752.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d53f027.css",
+    "static/js/main.4f06e752.js"
+  ]
+}
