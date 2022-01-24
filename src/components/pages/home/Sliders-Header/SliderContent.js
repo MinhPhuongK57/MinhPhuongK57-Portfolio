@@ -17,7 +17,7 @@ function SliderContent({ activeIndex, SliderImages }) {
             >
               Ken<span className="coral">Cry</span>stal
             </a>
-            <span className="sliders-content--account">
+            {/* <span className="sliders-content--account">
               <a
                 href="/#"
                 className="account-login  wow animate__fadeInDown"
@@ -34,7 +34,7 @@ function SliderContent({ activeIndex, SliderImages }) {
               >
                 Register
               </a>
-            </span>
+            </span> */}
           </div>
           <img className="sliders-image" src={slide.urls} alt="" />
           <h2

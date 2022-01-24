@@ -1,52 +1,30 @@
-//Cách cũ khi dùng Jquery , kéo button scroll
-// $(document).ready(function(){
-//   $(window).scroll(function(){
-//     if($(this).scrollTop()> 40){
-//       $("#btn__go-up").fadeIn();
-//     }
-//     else{
-//       $("#btn__go-up").fadeOut();
-//     }
-//   });
+import React, { useState } from "react";
 
-//   $("#btn__go-up").click(function(){
-//     $("html,body").animate({scrollTop: 0},500);
-//   });
-// });
+function ScrollToTop() {
+  const initialState = {
+    is_visible: false,
+  };
 
-import React, { Component } from "react";
+  const [setStatus] = useState(initialState);
 
-class ScrollToTop extends Component {
-  constructor(props) {
-    //Tạo ra method với status = false.
-    super(props);
-    this.state = {
-      is_visible: false,
-    };
-  }
-
-  componentDidMount() {
+  const componentDidMount = () => {
     //Tạo ra thành phần gắn kết "scroll", gọi khi lần đầu hiển thị.
     var scrollComponent = this;
     document.addEventListener("scroll", function (e) {
       scrollComponent.toggleVisibility();
     });
-  }
+  };
 
-  toggleVisibility() {
+  const toggleVisibility = () => {
     //Đổi cách hiển thị, khi scroll đến vị trí lớn hơn 250px thì status =  true.
     if (window.pageYOffset > 250) {
-      this.setState({
-        is_visible: true,
-      });
+      setStatus = false;
     } else {
-      this.setState({
-        is_visible: false,
-      });
+      setStatus = true;
     }
-  }
+  };
 
-  scrollToTop() {
+  const scrollToTop = () => {
     //Cuộn trang
     window.scrollTo({
       top: 0,
@@ -56,23 +34,19 @@ class ScrollToTop extends Component {
       smooth: "easeInOutQuint",
       containerId: "ContainerElementID",
     });
-  }
+  };
 
-  render() {
-    //Output.
-    const { is_visible } = this.state;
-    return (
-      <div>
-        {is_visible && (
-          <div onClick={() => this.scrollToTop()}>
-            <button id="btn__go-up" type="button">
-              <i className="far fa-arrow-alt-circle-up"></i>
-            </button>
-          </div>
-        )}
-      </div>
-    );
-  }
+  return (
+    <div>
+      {setStatus && (
+        <div onClick={() => this.scrollToTop()}>
+          <button id="btn__go-up" type="button">
+            <i className="far fa-arrow-alt-circle-up"></i>
+          </button>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default ScrollToTop;

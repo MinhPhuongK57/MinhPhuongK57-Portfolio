@@ -1,45 +1,51 @@
 import "./scss/Kencrystal.css";
-// import React, { useState } from 'react';
-import React, { Component } from "react";
+import React, { useState, Component } from "react";
 import Home from "./components/pages/Home";
-// import LoginForm from './pages/Login';
+// import LoginForm from "./components/pages/Login";
 import WOW from "wowjs";
-// import { render } from 'react-dom';
-// function Kencrystal(){
+// import { render } from "react-dom";
+// function Kencrystal() {
+//   new WOW.WOW({
+//     live: false,
+//   }).init();
 //   const adminUser = {
-//     email: "minhphuongk57.coder.it@gmail.com",
-//     password: "minhphuong123"
-//   }
+//     email: "tmphuongk57.contact@gmail.com",
+//     password: "MinhPhuong123a@",
+//   };
 
-//   const [user, setUser] = useState({name: "", email: ""});
+//   const [user, setUser] = useState({ name: "", email: "" });
 //   const [error, setError] = useState("");
 
-//   const Login = details => {
-//     (console.log(details))
-
-//     if(details.email == adminUser.email  && details.password == adminUser.password){
+//   const Login = (details) => {
+//     console.log(details);
+//     if (
+//       details.email == adminUser.email &&
+//       details.password == adminUser.password
+//     ) {
 //       setUser({
 //         name: details.name,
-//         email: details.email
+//         email: details.email,
 //       });
-//     }else{
+//     } else {
 //       console.log("Details do not match..!");
+//       alert("Details do not match..!");
 //       setError("Login failed...!");
 //     }
-//   }
-//   const Logout = () =>{
-//     setUser({name: "", email: ""});
-//   }
-//   return(
-//       <div className="container">
-//         {(user.email != "") ? (
-//           <div>
-//             <Home/>
-//           </div>
-//         ) : ( <LoginForm Login={Login} error={error}/>
-//         )}
-//       </div>
-//     );
+//   };
+//   const Logout = () => {
+//     setUser({ name: "", email: "" });
+//   };
+//   return (
+//     <div className="container">
+//       {user.email != "" ? (
+//         <div>
+//           <Home />
+//         </div>
+//       ) : (
+//         <LoginForm Login={Login} error={error} />
+//       )}
+//     </div>
+//   );
 // }
 // export default Kencrystal;
 class Kencrystal extends Component {
@@ -50,9 +56,9 @@ class Kencrystal extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div className="container" componentDidMount>
         <Home />
-        {/* <LoginForm/> */}
+        {/* <LoginForm /> */}
       </div>
     );
   }
