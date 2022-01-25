@@ -1494,6 +1494,55 @@ input[type=checkbox] {
 }
 
 /*-----Experience End------*/
+/*-----CV Start------*/
+.cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(95, 95, 95, 0.1) 0px 1px 2px 0px;
+}
+.cv--title {
+  position: relative;
+  font-family: "Satisfy", cursive;
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  margin-bottom: 2rem;
+  background: #fff;
+  color: #4488af;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  white-space: nowrap;
+  border-radius: 3rem;
+  box-shadow: 3px 2px 15px 2px #f0f5fa;
+}
+.cv--title::after {
+  content: "";
+  position: absolute;
+  width: 215%;
+  height: 0.5px;
+  left: -210%;
+  top: 50%;
+  background: coral;
+  transform: translateY(-50%);
+}
+.cv--title::before {
+  content: "";
+  position: absolute;
+  width: 215%;
+  height: 0.5px;
+  top: 50%;
+  right: -210%;
+  background: coral;
+  transform: translateY(-50%);
+}
+
+/*-----CV End------*/
 /*-----Products Start------*/
 .product {
   display: flex;

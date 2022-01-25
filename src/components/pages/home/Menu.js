@@ -15,7 +15,7 @@ function Menu() {
         <ul className="menu__website--main">
           <li className="menu__website--li">
             <a
-              href="/#home__me"
+              href="/KenCrystalK57/#home__me"
               className="menu__website--link wow animate__fadeInLeft"
               data-wow-duration="0.3s"
               data-wow-delay="0.25s"
@@ -25,7 +25,7 @@ function Menu() {
           </li>
           <li className="menu__website--li">
             <a
-              href="/#feature__me"
+              href="/KenCrystalK57/#feature__me"
               className="menu__website--link wow animate__fadeInLeft"
               data-wow-duration="0.20s"
               data-wow-delay="0.15s"
@@ -35,7 +35,7 @@ function Menu() {
           </li>
           <li className="menu__website--li">
             <a
-              href="/#experience__me"
+              href="/KenCrystalK57/#experience__me"
               className="menu__website--link wow animate__fadeInUp"
               data-wow-duration="0.20s"
               data-wow-delay="0.15s"
@@ -45,7 +45,7 @@ function Menu() {
           </li>
           <li className="menu__website--li">
             <a
-              href="/#cv__me"
+              href="/KenCrystalK57/#cv__me"
               className="menu__website--link wow animate__fadeInUp"
               data-wow-duration="0.15s"
               data-wow-delay="0.10s"
@@ -55,7 +55,7 @@ function Menu() {
           </li>
           <li className="menu__website--li">
             <a
-              href="/#products__me"
+              href="/KenCrystalK57/#products__me"
               className="menu__website--link wow animate__fadeInUp"
               data-wow-duration="0.20s"
               data-wow-delay="0.15s"
@@ -65,7 +65,7 @@ function Menu() {
           </li>
           <li className="menu__website--li">
             <a
-              href="/#popup-article"
+              href="/KenCrystalK57/#popup-article"
               className="menu__website--link wow animate__fadeInRight"
               data-wow-duration="0.25s"
               data-wow-delay="0.20s"
@@ -75,7 +75,7 @@ function Menu() {
           </li>
           <li className="menu__website--li">
             <a
-              href="/#contact__me"
+              href="/KenCrystalK57/#contact__me"
               className="menu__website--link menu__website--link_last wow animate__fadeInRight"
               data-wow-duration="0.3s"
               data-wow-delay="0.25s"

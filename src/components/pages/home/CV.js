@@ -2,8 +2,16 @@ import React from "react";
 
 function CV() {
   return (
-    <div id="cv__me">
-      <img src="/public/images/MinhPhuong.png" alt="Image-CV" />
+    <div className="container con_pad" id="cv__me">
+      <div className="cv">
+        <h2
+          className="cv--title wow animate__fadeInUp"
+          data-wow-duration="0.3s"
+          data-wow-delay="0.2s"
+        >
+          Curriculum vitae
+        </h2>
+      </div>
     </div>
   );
 }
