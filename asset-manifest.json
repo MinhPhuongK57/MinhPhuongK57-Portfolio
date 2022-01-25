@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/KenCrystalK57/static/css/main.05000b12.css",
-    "main.js": "/KenCrystalK57/static/js/main.64a5fb5e.js",
+    "main.js": "/KenCrystalK57/static/js/main.0aa31582.js",
     "index.html": "/KenCrystalK57/index.html",
     "main.05000b12.css.map": "/KenCrystalK57/static/css/main.05000b12.css.map",
-    "main.64a5fb5e.js.map": "/KenCrystalK57/static/js/main.64a5fb5e.js.map"
+    "main.0aa31582.js.map": "/KenCrystalK57/static/js/main.0aa31582.js.map"
   },
   "entrypoints": [
     "static/css/main.05000b12.css",
-    "static/js/main.64a5fb5e.js"
+    "static/js/main.0aa31582.js"
   ]
 }
