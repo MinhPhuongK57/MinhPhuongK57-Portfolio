@@ -5,7 +5,7 @@ function Menu() {
     <div className="menu__website">
       <div className="container__menu">
         <a
-          href="/#"
+          href="/KenCrystalK57/#"
           className="logo__page wow animate__fadeInBottomLeft"
           data-wow-duration="0.4s"
           data-wow-delay="0.2s"
