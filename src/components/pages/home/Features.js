@@ -132,7 +132,7 @@ function Feature() {
             {listQuote.description}
           </div>
           <p className="grid-title">{listQuote.name}</p>
-          <a href="/#" className="grid-btn">
+          <a href="/KenCrystalK57/#" className="grid-btn">
             See more
           </a>
         </div>

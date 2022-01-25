@@ -1,5 +1,5 @@
 import React from "react";
-
+import images from "../../../images/MinhPhuong.png";
 function CV() {
   return (
     <div className="container con_pad" id="cv__me">
@@ -11,6 +11,9 @@ function CV() {
         >
           Curriculum vitae
         </h2>
+        <div className="cv--img">
+          <img src={images} alt="image" />
+        </div>
       </div>
     </div>
   );

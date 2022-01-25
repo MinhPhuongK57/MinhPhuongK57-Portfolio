@@ -1639,6 +1639,16 @@ input[type="checkbox"] {
         }
 
     }
+
+    &--img {
+        width: 100%;
+        height: 100%;
+        @include dl__flex;
+
+        img {
+            max-width: 1220px;
+        }
+    }
 }
 
 /*-----CV End------*/
@@ -2173,6 +2183,10 @@ input[type="checkbox"] {
                 }
             }
         }
+    }
+
+    .cv {
+        display: none;
     }
 }
 
