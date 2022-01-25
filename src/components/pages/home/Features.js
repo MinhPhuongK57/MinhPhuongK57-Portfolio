@@ -1,6 +1,6 @@
 import React from "react";
 
-function Grid() {
+function Feature() {
   const listQuotes = [
     {
       id: 1,
@@ -166,7 +166,7 @@ function Grid() {
           </a>
         </div>
       </div>
-      <div className="con_pad grid">
+      <div className="con_pad grid" id="feature__me">
         <h2
           className="grid--title wow animate__fadeInUp"
           data-wow-duration="0.3s"
@@ -180,4 +180,4 @@ function Grid() {
   );
 }
 
-export default Grid;
+export default Feature;

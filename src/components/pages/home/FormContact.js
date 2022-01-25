@@ -13,7 +13,6 @@ function FormContact() {
 
   const handleSubmit = (e) => {
     alert('Content: "' + valueKen.value + '" submitted successfully.');
-    console.log("Content: " + valueKen.value);
     e.preventDefault();
   };
 

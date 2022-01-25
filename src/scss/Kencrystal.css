@@ -367,7 +367,7 @@ a {
 .sliders {
   position: relative;
   width: 100%;
-  height: 570px;
+  height: 600px;
   overflow: hidden;
 }
 .sliders-content {
@@ -1272,6 +1272,7 @@ input[type=checkbox] {
   overflow: hidden;
 }
 
+/*-----Features Start------*/
 .grid {
   display: flex;
   align-items: center;
@@ -1297,7 +1298,7 @@ input[type=checkbox] {
   text-transform: capitalize;
   white-space: nowrap;
   border-radius: 3rem;
-  box-shadow: 3px 1px 15px 2px #ecf1f3;
+  box-shadow: 3px 2px 15px 2px #f0f5fa;
 }
 .grid--title::after {
   content: "";
@@ -1443,6 +1444,182 @@ input[type=checkbox] {
   visibility: visible;
 }
 
+/*-----Features End------*/
+/*-----Experience Start------*/
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(95, 95, 95, 0.1) 0px 1px 2px 0px;
+}
+.experience--title {
+  position: relative;
+  font-family: "Satisfy", cursive;
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  margin-bottom: 2rem;
+  background: #fff;
+  color: #4488af;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  white-space: nowrap;
+  border-radius: 3rem;
+  box-shadow: 3px 2px 15px 2px #f0f5fa;
+}
+.experience--title::after {
+  content: "";
+  position: absolute;
+  width: 310%;
+  height: 0.5px;
+  left: -300%;
+  top: 50%;
+  background: coral;
+  transform: translateY(-50%);
+}
+.experience--title::before {
+  content: "";
+  position: absolute;
+  width: 310%;
+  height: 0.5px;
+  top: 50%;
+  right: -300%;
+  background: coral;
+  transform: translateY(-50%);
+}
+
+/*-----Experience End------*/
+/*-----Products Start------*/
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: rgba(95, 95, 95, 0.1) 0px 1px 2px 0px;
+}
+.product--title {
+  position: relative;
+  font-family: "Satisfy", cursive;
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  margin-bottom: 2rem;
+  background: #fff;
+  color: #4488af;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  white-space: nowrap;
+  border-radius: 3rem;
+  box-shadow: 3px 2px 15px 2px #f0f5fa;
+}
+.product--title::after {
+  content: "";
+  position: absolute;
+  width: 380%;
+  height: 0.5px;
+  left: -370%;
+  top: 50%;
+  background: coral;
+  transform: translateY(-50%);
+}
+.product--title::before {
+  content: "";
+  position: absolute;
+  width: 380%;
+  height: 0.5px;
+  top: 50%;
+  right: -370%;
+  background: coral;
+  transform: translateY(-50%);
+}
+.product__main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+}
+.product__main--content {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 3px 1px 15px 2px #edf8ff;
+  overflow: hidden;
+}
+.product__main .product--image {
+  height: 200px;
+  padding: 1rem;
+  box-shadow: 3px 1px 15px 2px #f4fbff;
+}
+.product__main .product--image-border {
+  border-radius: 1rem;
+  width: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  flex-shrink: 0;
+}
+.product__main .product__text {
+  padding: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.product__main .product__text--title {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+  color: coral;
+}
+.product__main .product__text--time {
+  display: flex;
+  padding-top: 0.7rem;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+.product__main .product__text--time p {
+  padding-left: 1rem;
+}
+.product__main .product__text--description {
+  padding: 0.5rem 1rem 1rem 0;
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  line-height: 1.5rem;
+}
+.product__main .product__text--button {
+  outline: none;
+  padding: 0.8rem 1rem;
+  background-image: linear-gradient(to right, #fc6076, #ff9a44);
+  color: white;
+  box-shadow: 3px 1px 15px 2px #e6f0f5;
+  border-radius: 2rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: ease-in-out 0.3s;
+}
+.product__main .product__text--button:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+
+/*-----Products End------*/
 /*------main------*/
 /*-----------Slider-----------*/
 .slider {
@@ -1758,6 +1935,14 @@ input[type=checkbox] {
   .footer__contact--title {
     font-size: 1rem;
   }
+
+  .product__main .product__text--title {
+    font-size: 1.5rem;
+  }
+  .product__main .product__text--time p {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+  }
 }
 @media only screen and (max-width: 1024px) {
   body {
@@ -1816,10 +2001,12 @@ input[type=checkbox] {
     display: flex;
     align-items: center;
     justify-content: center;
-    display: inline-block;
+    display: block;
     height: 6rem;
     background: #fff;
     padding: 0;
+    margin-top: 2rem;
+    text-align: center;
   }
   .logo__responsive--link {
     font-family: "Satisfy", cursive;
@@ -1937,6 +2124,26 @@ input[type=checkbox] {
     right: 60%;
   }
 
+  .product__main {
+    width: 90%;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+  .product__main--content {
+    overflow: auto;
+  }
+  .product__main .product--image {
+    overflow: hidden;
+    width: 40%;
+    height: 250px;
+  }
+  .product__main .product--image-border {
+    width: 280px;
+  }
+  .product__main .product__text {
+    width: 60%;
+  }
+
   .slider__nav {
     width: 1.2rem;
     height: 1.2rem;
@@ -1984,6 +2191,59 @@ input[type=checkbox] {
     padding: 0.6rem 0.9rem;
   }
   .footer-copy {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .product__main {
+    width: 70%;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+  }
+  .product__main--content {
+    padding: 1rem;
+    box-shadow: 3px 1px 15px 2px #daf1ff;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .product__main .product--image {
+    box-shadow: none;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+  }
+  .product__main .product--image-border {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .product__main .product__text {
+    padding-left: 3.5rem;
+    line-height: 2rem;
+    width: 100%;
+  }
+  .product__main .product__text--title {
+    white-space: nowrap;
+    font-size: 1.8rem;
+  }
+  .product__main .product__text--time {
+    font-size: 1.4rem;
+  }
+  .product__main .product__text--time p {
+    white-space: nowrap;
+    font-size: 1.3rem;
+  }
+  .product__main .product__text--description {
+    font-size: 1.3rem;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 80px;
+    line-height: 1.7rem;
+  }
+  .product__main .product__text--button {
+    padding: 1.2rem 2.2rem;
     font-size: 1.5rem;
   }
 }
@@ -2169,6 +2429,12 @@ input[type=checkbox] {
     transition: ease 1s;
   }
 
+  .product__main {
+    width: 90%;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+  }
+
   .banner {
     height: 350px;
   }
@@ -2258,6 +2524,46 @@ input[type=checkbox] {
     padding: 0.5rem 2rem;
     height: 4rem;
     font-size: 1rem;
+  }
+
+  .product__main {
+    width: 100%;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+  }
+  .product__main .product--image {
+    box-shadow: none;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .product__main .product--image-border {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .product__main .product__text {
+    padding-left: 0;
+  }
+  .product__main .product__text--title {
+    white-space: wrap;
+    font-size: 1.5rem;
+  }
+  .product__main .product__text--time {
+    white-space: wrap;
+    font-size: 1.2rem;
+  }
+  .product__main .product__text--time p {
+    font-size: 1.1rem;
+  }
+  .product__main .product__text--description {
+    white-space: wrap;
+    font-size: 1.1rem;
+  }
+  .product__main .product__text--button {
+    padding: 0.8rem 2.2rem;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (max-width: 590px) {

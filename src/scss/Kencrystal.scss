@@ -1,7 +1,7 @@
 @import "./Reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@mixin display__flex {
+@mixin dl__flex {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,7 +148,7 @@ a {
 
 /*-----Start Scroll go up-----*/
 #btn__go-up {
-    @include display__flex;
+    @include dl__flex;
     height: 2.5rem;
     width: 2.5rem;
     bottom: 1rem;
@@ -183,7 +183,7 @@ a {
 /*----------------Login -------------*/
 
 .login {
-    @include display__flex;
+    @include dl__flex;
     position: absolute;
     width: 100%;
     max-width: 500px;
@@ -233,7 +233,7 @@ a {
         border: 1px solid #eee;
 
         &--content {
-            @include display__flex;
+            @include dl__flex;
             position: relative;
             flex-direction: row;
             margin-bottom: 2rem;
@@ -323,7 +323,7 @@ a {
         }
 
         .login-list {
-            @include display__flex;
+            @include dl__flex;
             flex-direction: row;
             margin-bottom: 1rem;
 
@@ -352,7 +352,7 @@ a {
         }
 
         &--btn {
-            @include display__flex;
+            @include dl__flex;
             box-shadow: 3px 1px 15px 2px rgb(234, 242, 247);
             margin: 0 auto;
             padding: 0.7rem 2rem;
@@ -379,11 +379,11 @@ a {
 .sliders {
     position: relative;
     width: 100%;
-    height: 570px;
+    height: 600px;
     overflow: hidden;
 
     &-content {
-        @include display__flex;
+        @include dl__flex;
         position: absolute;
         justify-content: space-between;
         width: 100%;
@@ -503,7 +503,7 @@ a {
     }
 
     .all-dots {
-        @include display__flex;
+        @include dl__flex;
         position: absolute;
         width: 100%;
         top: 90%;
@@ -604,7 +604,7 @@ a {
     }
 
     &-content {
-        @include display__flex;
+        @include dl__flex;
         width: 100%;
         max-width: 1200px;
         height: 100%;
@@ -647,8 +647,9 @@ a {
     box-shadow: 3px 1px 15px 2px rgb(237, 248, 255);
     z-index: 999999999;
 
+
     .container__menu {
-        @include display__flex;
+        @include dl__flex;
         position: relative;
         width: 100%;
         height: 5rem;
@@ -693,7 +694,7 @@ a {
     }
 
     &--main {
-        @include display__flex;
+        @include dl__flex;
         flex-direction: row;
         position: relative;
         height: 2rem;
@@ -772,7 +773,7 @@ a {
     }
 
     &--list {
-        @include display__flex;
+        @include dl__flex;
         flex-direction: row;
 
         a.menu__list--icon {
@@ -818,7 +819,7 @@ a {
 
 /*-------Search--------*/
 .search {
-    @include display__flex;
+    @include dl__flex;
     justify-content: space-between;
     width: 100%;
     height: 7rem;
@@ -837,7 +838,7 @@ a {
     }
 
     &__content {
-        @include display__flex;
+        @include dl__flex;
         justify-content: space-between;
         height: 3rem;
         margin-right: 15.5rem;
@@ -871,7 +872,7 @@ a {
         }
 
         &--btn {
-            @include display__flex;
+            @include dl__flex;
             width: 3rem;
             height: 3rem;
             font-size: 1.1rem;
@@ -897,7 +898,7 @@ a {
     z-index: 9999999999;
 
     &__container {
-        @include display__flex;
+        @include dl__flex;
         flex-direction: column;
         margin: auto;
         max-width: 1200px;
@@ -1157,7 +1158,7 @@ a {
 }
 
 .menu-btn {
-    @include display__flex;
+    @include dl__flex;
     position: fixed;
     z-index: 2;
     right: 20px;
@@ -1204,7 +1205,7 @@ input[type="checkbox"] {
 
 /*-------------kencrylist-------------*/
 .kencrylist {
-    @include display__flex;
+    @include dl__flex;
     flex-direction: column;
     padding: 1rem;
     margin-top: 2rem;
@@ -1305,8 +1306,10 @@ input[type="checkbox"] {
     overflow: hidden;
 }
 
+
+/*-----Features Start------*/
 .grid {
-    @include display__flex;
+    @include dl__flex;
     flex-direction: column;
     padding: 1rem;
     margin-top: 2rem;
@@ -1328,7 +1331,7 @@ input[type="checkbox"] {
         text-transform: capitalize;
         white-space: nowrap;
         border-radius: 3rem;
-        box-shadow: 3px 1px 15px 2px rgb(236, 241, 243);
+        box-shadow: 3px 2px 15px 2px rgb(240, 245, 250);
 
         &::after {
             content: "";
@@ -1534,6 +1537,201 @@ input[type="checkbox"] {
     }
 }
 
+/*-----Features End------*/
+
+/*-----Experience Start------*/
+.experience {
+    @include dl__flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: rgba(95, 95, 95, 0.1) 0px 1px 2px 0px;
+
+    &--title {
+        position: relative;
+        font-family: 'Satisfy', cursive;
+        display: inline-block;
+        padding: 0.7rem 1.5rem;
+        margin-bottom: 2rem;
+        background: #fff;
+        color: $c__se;
+        font-weight: 500;
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        white-space: nowrap;
+        border-radius: 3rem;
+        box-shadow: 3px 2px 15px 2px rgb(240, 245, 250);
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 310%;
+            height: 0.5px;
+            left: -300%;
+            top: 50%;
+            background: $c__coral;
+            transform: translateY(-50%);
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 310%;
+            height: 0.5px;
+            top: 50%;
+            right: -300%;
+            background: $c__coral;
+            transform: translateY(-50%);
+        }
+
+    }
+}
+
+/*-----Experience End------*/
+
+
+/*-----Products Start------*/
+.product {
+    @include dl__flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: rgba(95, 95, 95, 0.1) 0px 1px 2px 0px;
+
+    &--title {
+        position: relative;
+        font-family: 'Satisfy', cursive;
+        display: inline-block;
+        padding: 0.7rem 1.5rem;
+        margin-bottom: 2rem;
+        background: #fff;
+        color: $c__se;
+        font-weight: 500;
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        white-space: nowrap;
+        border-radius: 3rem;
+        box-shadow: 3px 2px 15px 2px rgb(240, 245, 250);
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 380%;
+            height: 0.5px;
+            left: -370%;
+            top: 50%;
+            background: $c__coral;
+            transform: translateY(-50%);
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 380%;
+            height: 0.5px;
+            top: 50%;
+            right: -370%;
+            background: $c__coral;
+            transform: translateY(-50%);
+        }
+    }
+
+    &__main {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+
+        &--content {
+
+            width: 100%;
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            border-radius: 0.5rem;
+            box-shadow: 3px 1px 15px 2px rgb(237, 248, 255);
+            overflow: hidden;
+        }
+
+        .product--image {
+            height: 200px;
+            padding: 1rem;
+            box-shadow: 3px 1px 15px 2px rgb(244, 251, 255);
+
+            &-border {
+                border-radius: 1rem;
+                width: 180px;
+                object-fit: cover;
+                height: 100%;
+                flex-shrink: 0;
+            }
+        }
+
+        .product__text {
+            padding: 1rem;
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            &--title {
+                font-size: 1.4rem;
+                text-transform: capitalize;
+                letter-spacing: 0.7px;
+                color: $c__coral;
+            }
+
+            &--time {
+                display: flex;
+                padding-top: 0.7rem;
+                font-size: 1.1rem;
+                text-transform: capitalize;
+                letter-spacing: 0.5px;
+
+                p {
+                    padding-left: 1rem;
+                }
+            }
+
+            &--description {
+                padding: 0.5rem 1rem 1rem 0;
+                font-size: 1rem;
+                text-transform: capitalize;
+                letter-spacing: 0.5px;
+                line-height: 1.5rem;
+            }
+
+            &--button {
+                outline: none;
+                padding: 0.8rem 1rem;
+                background-image: linear-gradient(to right, #fc6076, #ff9a44);
+                color: white;
+                box-shadow: 3px 1px 15px 2px rgb(230, 240, 245);
+                border-radius: 2rem;
+                font-size: 1rem;
+                letter-spacing: 1px;
+                font-weight: 500;
+                white-space: nowrap;
+                transition: ease-in-out .3s;
+
+                &:hover {
+                    background-position: 100% 0;
+                    transition: all .4s ease-in-out;
+                    // transition: ease-in-out .3s;
+                    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+                }
+            }
+        }
+    }
+}
+
+/*-----Products End------*/
+
 /*------main------*/
 
 /*-----------Slider-----------*/
@@ -1718,7 +1916,7 @@ input[type="checkbox"] {
     line-height: 3rem;
 
     &__contact {
-        @include display__flex;
+        @include dl__flex;
         flex-direction: row;
         position: absolute;
         overflow: hidden;
@@ -1740,7 +1938,7 @@ input[type="checkbox"] {
         }
 
         &--form {
-            @include display__flex;
+            @include dl__flex;
             flex-direction: row;
             position: relative;
 
@@ -1897,13 +2095,28 @@ input[type="checkbox"] {
 
 /*---------------Footer-----------------*/
 
-
-
 @media only screen and (max-width:1075px) {
     .footer {
         &__contact {
             &--title {
                 font-size: 1rem;
+            }
+        }
+    }
+
+    .product {
+        &__main {
+            .product__text {
+                &--title {
+                    font-size: 1.5rem;
+                }
+
+                &--time {
+                    p {
+                        font-size: 1rem;
+                        padding-left: 0.5rem;
+                    }
+                }
             }
         }
     }
@@ -1970,11 +2183,13 @@ input[type="checkbox"] {
     }
 
     .logo__responsive {
-        @include display__flex;
-        display: inline-block;
+        @include dl__flex;
+        display: block;
         height: 6rem;
         background: #fff;
         padding: 0;
+        margin-top: 2rem;
+        text-align: center;
 
         &--link {
             font-family: 'Satisfy', cursive;
@@ -2017,7 +2232,7 @@ input[type="checkbox"] {
     }
 
     .search {
-        @include display__flex;
+        @include dl__flex;
         justify-content: space-around;
         width: 100%;
         max-width: 90%;
@@ -2028,10 +2243,6 @@ input[type="checkbox"] {
         div:first-child {
             display: none;
         }
-
-        // &-div1 {
-        //     margin-right: 2rem;
-        // }
 
         &__content {
             margin-right: 0;
@@ -2121,6 +2332,35 @@ input[type="checkbox"] {
         }
     }
 
+    .product {
+        &__main {
+            width: 90%;
+            grid-template-columns: auto;
+            grid-gap: 20px;
+
+            &--content {
+                overflow: auto;
+            }
+
+
+            .product--image {
+                overflow: hidden;
+                width: 40%;
+
+                height: 250px;
+
+                &-border {
+                    width: 280px;
+                }
+
+            }
+
+            .product__text {
+                width: 60%;
+            }
+        }
+    }
+
     .slider {
         &__nav {
             width: 1.2rem;
@@ -2133,7 +2373,7 @@ input[type="checkbox"] {
         margin-top: 6rem;
 
         &__contact {
-            @include display__flex;
+            @include dl__flex;
             justify-content: space-around;
             flex-direction: column;
             width: 90%;
@@ -2182,6 +2422,75 @@ input[type="checkbox"] {
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .product {
+        &__main {
+            width: 70%;
+            grid-template-columns: auto;
+            grid-gap: 30px;
+
+            &--content {
+                padding: 1rem;
+                box-shadow: 3px 1px 15px 2px rgb(218, 241, 255);
+                overflow: hidden;
+                flex-direction: column;
+            }
+
+
+            .product--image {
+                box-shadow: none;
+                width: 100%;
+                height: 280px;
+                display: flex;
+                justify-content: center;
+
+                &-border {
+                    width: 80%;
+                    height: 100%;
+                    margin: 0 auto;
+                }
+
+            }
+
+            .product__text {
+                padding-left: 3.5rem;
+                line-height: 2rem;
+                width: 100%;
+
+                &--title {
+                    white-space: nowrap;
+                    font-size: 1.8rem;
+                }
+
+                &--time {
+                    font-size: 1.4rem;
+
+                    p {
+                        white-space: nowrap;
+                        font-size: 1.3rem;
+                    }
+                }
+
+                &--description {
+                    font-size: 1.3rem;
+                    white-space: wrap;
+                    text-overflow: ellipsis;
+                    // overflow: hidden;
+                    width: 100%;
+                    height: 80px;
+                    line-height: 1.7rem;
+                }
+
+                &--button {
+                    padding: 1.2rem 2.2rem;
+                    font-size: 1.5rem;
+
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width:768px) {
     body {
         width: 100%;
@@ -2199,7 +2508,7 @@ input[type="checkbox"] {
     }
 
     .logo__responsive {
-        @include display__flex;
+        @include dl__flex;
         display: block;
         height: 6rem;
         background: #fff;
@@ -2283,7 +2592,7 @@ input[type="checkbox"] {
     }
 
     .search {
-        @include display__flex;
+        @include dl__flex;
         flex-direction: column;
         width: 80%;
         height: 8rem;
@@ -2387,6 +2696,16 @@ input[type="checkbox"] {
                     }
                 }
             }
+        }
+    }
+
+    .product {
+        &__main {
+            width: 90%;
+            grid-template-columns: auto;
+            grid-gap: 30px;
+
+
         }
     }
 
@@ -2502,6 +2821,58 @@ input[type="checkbox"] {
                     font-size: 1rem;
                 }
             }
+        }
+    }
+
+    .product {
+        &__main {
+            width: 100%;
+            grid-template-columns: auto;
+            grid-gap: 30px;
+
+            .product--image {
+                box-shadow: none;
+                width: 100%;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+
+                &-border {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0 auto;
+                }
+
+            }
+
+            .product__text {
+                padding-left: 0;
+
+                &--title {
+                    white-space: wrap;
+                    font-size: 1.5rem;
+                }
+
+                &--time {
+                    white-space: wrap;
+                    font-size: 1.2rem;
+
+                    p {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                &--description {
+                    white-space: wrap;
+                    font-size: 1.1rem;
+                }
+
+                &--button {
+                    padding: 0.8rem 2.2rem;
+                    font-size: 1.3rem;
+                }
+            }
+
         }
     }
 }
@@ -2744,6 +3115,23 @@ input[type="checkbox"] {
         }
     }
 
+    // .product {
+    //     &__main {
+    //         grid-template-columns: 1fr auto;
+    //         grid-gap: 20px;
+
+    //         &--content {
+    //             flex-direction: column;
+    //             overflow: auto;
+    //         }
+
+    //         .product--image {
+    //             width: 100%;
+
+    //         }
+    //     }
+    // }
+
     .banner {
         height: 350px;
 
@@ -2775,7 +3163,7 @@ input[type="checkbox"] {
         }
 
         &__inner {
-            @include display__flex;
+            @include dl__flex;
             flex-direction: column;
             position: absolute;
             width: 100%;
@@ -2785,7 +3173,7 @@ input[type="checkbox"] {
             margin-top: 580px;
 
             .slider__contents {
-                @include display__flex;
+                @include dl__flex;
                 margin: 0;
                 padding: 0;
 
@@ -2881,6 +3269,8 @@ input[type="checkbox"] {
             display: none;
         }
     }
+
+
 
     .grid {
         &__page {
