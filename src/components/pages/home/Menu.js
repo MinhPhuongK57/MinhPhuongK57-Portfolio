@@ -35,16 +35,6 @@ function Menu() {
           </li>
           <li className="menu__website--li">
             <a
-              href="/KenCrystalK57/#experience__me"
-              className="menu__website--link wow animate__fadeInUp"
-              data-wow-duration="0.20s"
-              data-wow-delay="0.15s"
-            >
-              experiences
-            </a>
-          </li>
-          <li className="menu__website--li">
-            <a
               href="/KenCrystalK57/#cv__me"
               className="menu__website--link wow animate__fadeInUp"
               data-wow-duration="0.15s"
