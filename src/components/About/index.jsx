@@ -1,6 +1,6 @@
 import React from "react";
 
-function Introduce() {
+const Introduce = () => {
   return (
     <div className="page">
       <div className="page__container">
@@ -18,7 +18,6 @@ function Introduce() {
               <strong title="JavaScript is the world's most popular programming language">
                 JavaScript
               </strong>
-              ,{" "}
               <strong title="React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications">
                 ReactJS
               </strong>
@@ -38,5 +37,5 @@ function Introduce() {
       </div>
     </div>
   );
-}
+};
 export default Introduce;

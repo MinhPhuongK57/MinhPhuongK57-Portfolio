@@ -6,7 +6,7 @@ import SliderImages from "./SliderImages";
 
 const ken = SliderImages.length - 1;
 
-function Sliders(props) {
+function Sliders() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
