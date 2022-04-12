@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SliderContent from "./SliderContent";
 import Dots from "./Dots";
 import Arrows from "./Arrows";
-import SliderImages from "./SliderImages";
+import SliderImages from "../../static/data/slider-images";
 
 const ken = SliderImages.length - 1;
 
