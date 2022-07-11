@@ -2,19 +2,15 @@ import React from "react";
 import { menuResponsive } from "../../static/data/menu";
 function MenuResponsive() {
   const RenderMenuResponsive = () => {
-    return (
-      <>
-        {menuResponsive.map((item, index) => {
-          return (
-            <li className="wrapper__responsive--li" key={index}>
-              <a className="wrapper__responsive--link" href={item.link}>
-                {item.name}
-              </a>
-            </li>
-          );
-        })}
-      </>
-    );
+    return menuResponsive.map((item, index) => {
+      return (
+        <li className="wrapper__responsive--li" key={index}>
+          <a className="wrapper__responsive--link" href={item.link}>
+            {item.name}
+          </a>
+        </li>
+      );
+    });
   };
   return (
     <div>

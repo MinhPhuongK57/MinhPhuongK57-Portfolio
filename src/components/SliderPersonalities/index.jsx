@@ -2,37 +2,33 @@ import React from "react";
 import { slidePersonalities } from "../../static/data/personalities";
 function Slider() {
   const RenderSlidePersonalities = () => {
-    return (
-      <>
-        {slidePersonalities.map((item, index) => {
-          return (
-            <div
-              key={index}
-              className="slider__contents wow animate__fadeInUp"
-              data-wow-duration="0.2s"
-              data-wow-delay="0.2s"
-            >
-              <i className={item.icon}></i>
-              <h2
-                className="slider__caption wow animate__fadeInUp"
-                data-wow-duration="0.25s"
-                data-wow-delay="0.25s"
-              >
-                <span className="coral">{item.firstColor}</span>
-                {item.lastColor}
-              </h2>
-              <p
-                className="slider__txt wow animate__fadeInUp"
-                data-wow-duration="0.3s"
-                data-wow-delay="0.25s"
-              >
-                {item.description}
-              </p>
-            </div>
-          );
-        })}
-      </>
-    );
+    return slidePersonalities.map((item, index) => {
+      return (
+        <div
+          key={index}
+          className="slider__contents wow animate__fadeInUp"
+          data-wow-duration="0.2s"
+          data-wow-delay="0.2s"
+        >
+          <i className={item.icon}></i>
+          <h2
+            className="slider__caption wow animate__fadeInUp"
+            data-wow-duration="0.25s"
+            data-wow-delay="0.25s"
+          >
+            <span className="coral">{item.firstColor}</span>
+            {item.lastColor}
+          </h2>
+          <p
+            className="slider__txt wow animate__fadeInUp"
+            data-wow-duration="0.3s"
+            data-wow-delay="0.25s"
+          >
+            {item.description}
+          </p>
+        </div>
+      );
+    });
   };
   const RenderBannerImage = () => {
     return (

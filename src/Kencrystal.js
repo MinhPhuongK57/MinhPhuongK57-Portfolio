@@ -1,7 +1,6 @@
 import "./scss/Kencrystal.css";
 import React, { Component } from "react";
 import Home from "./pages/homepage";
-// import LoginForm from "./components/pages/Login";
 import WOW from "wowjs";
 class Kencrystal extends Component {
   componentDidMount() {
@@ -11,9 +10,8 @@ class Kencrystal extends Component {
   }
   render() {
     return (
-      <div className="container" componentDidMount>
+      <div className="container">
         <Home />
-        {/* <LoginForm /> */}
       </div>
     );
   }

@@ -19,7 +19,7 @@ const Search = () => {
         <input
           className="search__content--input"
           type="text"
-          placeholder="Type to search..."
+          placeholder="Type to search...(Test)"
         />
         <a href="index.html" className="search__content--btn">
           <i className="search__content--icon fas fa-search"></i>

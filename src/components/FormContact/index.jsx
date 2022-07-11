@@ -12,7 +12,7 @@ function FormContact() {
   };
 
   const handleSubmit = (e) => {
-    alert('Content: "' + valueKen.value + '" submitted successfully.');
+    alert('Content test: "' + valueKen.value + '" submitted successfully.');
     e.preventDefault();
   };
 

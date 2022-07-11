@@ -6,7 +6,7 @@ const Introduce = () => {
       <div className="page__container">
         <div id="popup-article" className="popup">
           <div className="popup__block">
-            <a href="/KenCrystalK57/#" className="popup__titleh1">
+            <a href="/" className="popup__titleh1">
               Ken<span className="coral">Cry</span>Stal
             </a>
             <p className="popup__title">
@@ -29,7 +29,7 @@ const Introduce = () => {
               great pressure, hopefully, it is also an interesting experience
               for me to step to my success step by step.
             </p>
-            <a href="/KenCrystalK57/#" className="popup__close">
+            <a href="/#" className="popup__close">
               close
             </a>
           </div>

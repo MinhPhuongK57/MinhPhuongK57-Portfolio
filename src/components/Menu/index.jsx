@@ -2,24 +2,20 @@ import React from "react";
 import { menuLinkCenter, menuLinkRight } from "../../static/data/menu";
 const Menu = () => {
   const RenderMenuCenter = () => {
-    return (
-      <>
-        {menuLinkCenter.map((item, index) => {
-          return (
-            <li key={index} className="menu__website--li">
-              <a
-                href={item.link}
-                className="menu__website--link wow animate__fadeInDown"
-                data-wow-duration="0.4s"
-                data-wow-delay="0.35s"
-              >
-                {item.name}
-              </a>
-            </li>
-          );
-        })}
-      </>
-    );
+    return menuLinkCenter.map((item, index) => {
+      return (
+        <li key={index} className="menu__website--li">
+          <a
+            href={item.link}
+            className="menu__website--link wow animate__fadeInDown"
+            data-wow-duration="0.4s"
+            data-wow-delay="0.35s"
+          >
+            {item.name}
+          </a>
+        </li>
+      );
+    });
   };
   const RenderMenuRight = () => {
     return menuLinkRight.map((item, index) => (
@@ -40,7 +36,7 @@ const Menu = () => {
   const RenderLogo = () => {
     return (
       <a
-        href="/KenCrystalK57/#"
+        href="/#"
         className="logo__page wow animate__fadeInBottomLeft"
         data-wow-duration="0.4s"
         data-wow-delay="0.2s"
