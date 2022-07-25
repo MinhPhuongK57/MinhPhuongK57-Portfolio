@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/KenCrystalK57/static/css/main.025087b6.css",
-    "main.js": "/KenCrystalK57/static/js/main.21b8a07c.js",
-    "static/media/MinhPhuong.png": "/KenCrystalK57/static/media/MinhPhuong.11fe38d1d4baf1a649e4.png",
-    "index.html": "/KenCrystalK57/index.html",
-    "main.025087b6.css.map": "/KenCrystalK57/static/css/main.025087b6.css.map",
-    "main.21b8a07c.js.map": "/KenCrystalK57/static/js/main.21b8a07c.js.map"
+    "main.css": "/KenCryStalK57/static/css/main.025087b6.css",
+    "main.js": "/KenCryStalK57/static/js/main.eff4ad4e.js",
+    "static/media/MinhPhuong.png": "/KenCryStalK57/static/media/MinhPhuong.11fe38d1d4baf1a649e4.png",
+    "index.html": "/KenCryStalK57/index.html",
+    "main.025087b6.css.map": "/KenCryStalK57/static/css/main.025087b6.css.map",
+    "main.eff4ad4e.js.map": "/KenCryStalK57/static/js/main.eff4ad4e.js.map"
   },
   "entrypoints": [
     "static/css/main.025087b6.css",
-    "static/js/main.21b8a07c.js"
+    "static/js/main.eff4ad4e.js"
   ]
 }
