@@ -26,22 +26,4 @@ export const footerIcon = [
     dataTitle: "Github",
     icon: "fab fa-github",
   },
-  {
-    id: 4,
-    link: "https://dribbble.com/MinhPhuongK57",
-    className: "footer__list--link wow animate__fadeInRight",
-    duration: "0.3s",
-    delay: "0.35s",
-    dataTitle: "Dribbble",
-    icon: "fab fa-dribbble",
-  },
-  {
-    id: 5,
-    link: "https://www.behance.net/minhphuongk57",
-    className: "footer__list--link wow animate__fadeInRight",
-    duration: "0.3s",
-    delay: "0.35s",
-    dataTitle: "Behance",
-    icon: "fab fa-behance",
-  },
 ];

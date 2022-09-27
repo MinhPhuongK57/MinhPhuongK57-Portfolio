@@ -6,8 +6,8 @@
     bottom: 1rem;
     right: 1rem;
     position: fixed;
-    background: $c__su;
-    color: $c__coral;
+    background: $color__success;
+    color: $color__coral;
     cursor: pointer;
     border-radius: 2.5rem;
     font-size: 1.5rem;
@@ -18,8 +18,8 @@
 
 #btn__go-up:hover {
     transition: all 0.2s linear;
-    color: $c__coral;
-    background: $c__su;
+    color: $color__coral;
+    background: $color__success;
 }
 
 /*-----End Scroll go up-----*/

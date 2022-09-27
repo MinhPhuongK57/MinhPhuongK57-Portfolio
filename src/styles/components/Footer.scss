@@ -1,7 +1,7 @@
 /*---------------Footer-----------------*/
 .footer {
     position: relative;
-    background: $c__pr;
+    background: $color__primary;
     color: #fff;
     margin-top: 4rem;
     padding-top: 8rem;
@@ -20,9 +20,9 @@
         left: 10%;
         padding: 0 2rem;
         background-color: #fff;
-        color: $c__coral;
+        color: $color__coral;
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-        border-bottom: 1.5px solid $c__coral;
+        border-bottom: 1.5px solid $color__coral;
         border-radius: 0.3rem;
 
         &--title {
@@ -40,14 +40,14 @@
                 padding: 0 101px 0 16px;
                 width: 450px;
                 height: 3.8rem;
-                color: $c__coral;
+                color: $color__coral;
                 font-size: 1rem;
                 border-radius: 0.4rem;
                 border: 1px solid #eee;
                 transition: 0.25s ease;
 
                 &:focus {
-                    border: 1px solid $c__coral;
+                    border: 1px solid $color__coral;
                 }
 
                 &:not(:placeholder-shown)+.form-label,
@@ -55,7 +55,7 @@
                     top: 0;
                     left: 6px;
                     padding: 0 10px;
-                    color: $c__coral;
+                    color: $color__coral;
                     background-color: #fff;
                     display: inline-block;
                 }
@@ -83,13 +83,13 @@
                 height: 2.6rem;
                 right: 0.6rem;
                 top: 0.6rem;
-                background: $c__coral;
+                background: $color__coral;
                 color: #fff;
                 font-size: 0.9rem;
                 font-weight: normal;
                 letter-spacing: 1px;
                 border-radius: 0.4rem;
-                border: 1px solid $c__coral;
+                border: 1px solid $color__coral;
                 opacity: 0.7;
                 transition: all 0.25s linear;
 
@@ -162,7 +162,7 @@
             font-size: 1.7rem;
 
             &:hover {
-                color: $c__su;
+                color: $color__success;
             }
         }
     }
@@ -174,7 +174,7 @@
         border: 1px solid #fff;
 
         &:hover {
-            color: $c__su;
+            color: $color__success;
         }
     }
 

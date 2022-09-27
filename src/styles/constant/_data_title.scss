@@ -14,9 +14,9 @@
     padding: 1rem 1.2rem;
     border-radius: 0.3rem;
     background: #fff;
-    color: $c__coral;
+    color: $color__coral;
     box-shadow: 3px 1px 15px 2px #9ecdff;
-    font-family: 'Poppins', sans-serif;
+    font-family: $font__family;
     white-space: nowrap;
     font-size: 0.9rem;
     letter-spacing: 1px;
@@ -48,8 +48,8 @@
     padding: 0.2rem 1rem;
     border-radius: 0.3rem;
     background: #fff;
-    color: $c__coral;
-    font-family: 'Poppins', sans-serif;
+    color: $color__coral;
+    font-family: $font__family;
     font-size: 0.9rem;
     box-shadow: 3px 1px 15px 2px #9ecdff;
     letter-spacing: 1px;

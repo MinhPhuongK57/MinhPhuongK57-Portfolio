@@ -31,13 +31,13 @@
             .account-login,
             .account-register {
                 padding: 0.5rem 0.8rem;
-                color: $c__su;
-                border: 1px solid $c__su;
+                color: $color__success;
+                border: 1px solid $color__success;
                 border-radius: 1rem;
                 transition: all 0.3s linear;
 
                 &:hover {
-                    color: $c__coral;
+                    color: $color__coral;
                     transition: all 0.3s linear;
                 }
             }
@@ -53,7 +53,11 @@
         width: 100%;
         height: 100%;
         top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         object-fit: cover;
+        image-rendering: pixelated;
     }
 
     &-title,
@@ -61,15 +65,16 @@
         position: absolute;
         top: 30%;
         text-align: center;
-        color: $c__su;
         line-height: 2.5rem;
         z-index: 99999;
+        color: $color__success;
     }
+
 
     &-title {
         font-family: 'Satisfy', cursive;
         left: 21%;
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 600;
         letter-spacing: 1rem;
         text-shadow: 1px 1px 1px #ffffff;
@@ -80,9 +85,31 @@
         left: 15%;
         padding: 2rem;
         margin-top: 5rem;
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         letter-spacing: 1px;
         border-radius: 0.5rem;
+        text-shadow: 1px 1px 1px #ffffff;
+
+        &::after {
+            position: absolute;
+            content: "";
+            opacity: .2;
+            top: 10%;
+            left: 0;
+            right: 0;
+            z-index: -1;
+            height: 80%;
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: black;
+            filter: blur(1px);
+            -o-filter: blur(1px);
+            -ms-filter: blur(1px);
+            -moz-filter: blur(1px);
+            -webkit-filter: blur(1px);
+        }
     }
 
     .prev-s,
@@ -104,7 +131,7 @@
 
         &:hover {
             background: #fff;
-            color: $c__coral;
+            color: $color__coral;
             transition: all 0.2s linear;
         }
 
@@ -137,7 +164,7 @@
         width: 1.2rem;
         height: 1.2em;
         margin: 0 0.5rem;
-        border: 1px solid $c__su;
+        border: 1px solid $color__success;
         border-radius: 50%;
         transition: all 0.1s linear;
         cursor: pointer;
@@ -146,7 +173,7 @@
 
     .active-dot,
     .dot:hover {
-        background-color: $c__su;
+        background-color: $color__success;
         transition: all 0.2s linear;
     }
 }
@@ -177,7 +204,7 @@
 
         &-title {
             margin-top: 1.5rem;
-            font-size: 3.5rem;
+            font-size: 2.8rem;
         }
 
         &-description {
@@ -232,7 +259,7 @@
             width: 100%;
             left: 0;
             margin-top: 5rem;
-            font-size: 2.5rem;
+            font-size: 2rem;
             white-space: wrap;
             letter-spacing: 0.7rem;
         }
@@ -242,7 +269,7 @@
             left: 0;
             padding: 1.5rem;
             margin-top: 8rem;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             letter-spacing: 1px;
         }
 

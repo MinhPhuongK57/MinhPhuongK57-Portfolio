@@ -20,7 +20,7 @@ function Feature() {
             {quote.description}
           </div>
           <p className="grid-title">{quote.name}</p>
-          <a href="/KenCrystalK57/#" className="grid-btn">
+          <a href="/MinhPhuongK57-Portfolio/#" className="grid-btn">
             See more
           </a>
         </div>
@@ -29,7 +29,7 @@ function Feature() {
   };
   return (
     <div>
-      <div className="con_pad grid" id="feature__me">
+      <div className="con_pad grid" id="feature">
         <h2
           className="grid--title wow animate__fadeInUp"
           data-wow-duration="0.3s"

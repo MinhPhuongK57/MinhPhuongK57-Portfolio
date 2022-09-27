@@ -1,21 +1,21 @@
-@import "./reset";
-@import "./mixins";
-@import "./variables";
-@import "./data_title";
-@import "./Scroll.scss";
+@import "./constant/reset";
+@import "./constant/mixins";
+@import "./constant/variables";
+@import "./constant/data_title";
+@import "./ScrollBar.scss";
 @import "./Selection.scss";
 @import "./ScrollToTop.scss";
-@import "./Sliders.scss";
-@import "./MenuResponsive.scss";
-@import "./Menu.scss";
-@import "./PopupPage.scss";
-@import "./kencrylist.scss";
-@import "./Feature.scss";
-@import "./CurriculumVitae.scss";
-@import "./Product.scss";
-@import "./Slider.scss";
-@import "./Banner.scss";
-@import "./Footer.scss";
+@import "./components/Sliders.scss";
+@import "./components/MenuResponsive.scss";
+@import "./components/Menu.scss";
+@import "./components/PopupPage.scss";
+@import "./components/kencrylist.scss";
+@import "./components/Feature.scss";
+@import "./components/CurriculumVitae.scss";
+@import "./components/Product.scss";
+@import "./components/Slider.scss";
+@import "./components/Banner.scss";
+@import "./components/Footer.scss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: $font__family;
     width: 100%;
     min-height: 100vh;
     background: #fafaff;

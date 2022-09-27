@@ -1,7 +1,7 @@
 import React from "react";
 import Sliders from "../../components/slider_header/Sliders";
 import MenuResponsive from "../../components/MenuResponsive";
-import Header from "../../components/Header";
+import Introduce from "../../components/Introduce";
 import Menu from "../../components/Menu";
 import Feature from "../../components/Feature";
 import CV from "../../components/CV";
@@ -15,7 +15,7 @@ function homepage() {
     <div>
       <MenuResponsive />
       <Sliders />
-      <Header />
+      <Introduce />
       <Menu />
       <Feature />
       <CV />

@@ -16,7 +16,7 @@
         padding: 0.7rem 1.5rem;
         font-family: 'Satisfy', cursive;
         font-size: 1.8rem;
-        color: $c__se;
+        color: $color__secondary;
         background: #fff;
         font-weight: 500;
         white-space: nowrap;
@@ -31,7 +31,7 @@
             height: 0.5px;
             left: -340%;
             top: 50%;
-            background: $c__coral;
+            background: $color__coral;
             transform: translateY(-50%);
         }
 
@@ -42,7 +42,7 @@
             right: -340%;
             top: 50%;
             height: 0.5px;
-            background: $c__coral;
+            background: $color__coral;
             transform: translateY(-50%);
         }
     }
@@ -51,15 +51,15 @@
         margin: 1rem 0 3rem 0;
         padding: 0.7rem 1rem;
         background-color: #fff;
-        color: $c__coral;
+        color: $color__coral;
         font-size: 1.3rem;
         border-radius: 3rem;
         box-shadow: 3px 1px 0px 2px rgb(255, 203, 187);
         transition: all 0.3s linear;
 
         &:hover {
-            background-color: $c__coral;
-            color: $c__su;
+            background-color: $color__coral;
+            color: $color__success;
             transition: all 0.3s linear;
             box-shadow: none;
         }
@@ -109,7 +109,7 @@
         padding: 0.7rem 1.5rem;
         margin-bottom: 2rem;
         background: #fff;
-        color: $c__se;
+        color: $color__secondary;
         font-weight: 500;
         font-size: 1.8rem;
         text-transform: capitalize;
@@ -124,7 +124,7 @@
             height: 0.5px;
             left: -300%;
             top: 50%;
-            background: $c__coral;
+            background: $color__coral;
             transform: translateY(-50%);
         }
 
@@ -135,7 +135,7 @@
             height: 0.5px;
             top: 50%;
             right: -300%;
-            background: $c__coral;
+            background: $color__coral;
             transform: translateY(-50%);
         }
 

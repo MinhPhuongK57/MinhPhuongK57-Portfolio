@@ -2,7 +2,7 @@ import React from "react";
 import images from "../../images/MinhPhuong.png";
 function CV() {
   return (
-    <div className="container con_pad" id="cv__me">
+    <div className="container con_pad" id="cv">
       <div className="cv">
         <h2
           className="cv--title wow animate__fadeInUp"

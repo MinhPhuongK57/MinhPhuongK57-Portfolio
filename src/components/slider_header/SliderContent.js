@@ -17,26 +17,8 @@ function SliderContent({ activeIndex, SliderImages }) {
             >
               Ken<span className="coral">Cry</span>stal
             </a>
-            {/* <span className="sliders-content--account">
-              <a
-                href="/#"
-                className="account-login  wow animate__fadeInDown"
-                data-wow-duration="0.4s"
-                data-wow-delay="0.2s"
-              >
-                Logout
-              </a>
-              <a
-                href="/#"
-                className="account-register  wow animate__fadeInDown"
-                data-wow-duration="0.4s"
-                data-wow-delay="0.2s"
-              >
-                Register
-              </a>
-            </span> */}
           </div>
-          <img className="sliders-image" src={slide.urls} alt="" />
+          <img className="sliders-image" src={slide.urls} alt={slide.urls} />
           <h2
             className="sliders-title wow animate__fadeInLeft"
             data-wow-duration="0.5s"

@@ -15,16 +15,21 @@ function Product() {
           <div className="product__text">
             <h4 className="product__text--title">{product.title}</h4>
             <span className="product__text--time">
-              Time: <p>{product.time}</p>
+              <strong>Time: </strong> <p>{product.time}</p>
             </span>
-            <p className="product__text--description">{product.description}</p>
+            <span className="product__text--description">
+              <strong>Description: </strong> {product.description}
+            </span>
+            <span className="product__text--technologies">
+              <strong>Technologies used: </strong> {product.technologies}
+            </span>
             <a
               href={product.link}
               className="product__text--button"
               target="_blank"
               rel="noreferrer"
             >
-              See Project
+              Show Project
             </a>
           </div>
         </div>
@@ -32,7 +37,7 @@ function Product() {
     });
   };
   return (
-    <div className="container con_pad" id="products__me">
+    <div className="container con_pad" id="product">
       <div className="product">
         <h2
           className="product--title wow animate__fadeInUp"

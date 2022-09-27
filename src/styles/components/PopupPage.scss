@@ -34,7 +34,7 @@
             width: 100%;
             top: 50%;
             left: 0;
-            background-color: $c__su;
+            background-color: $color__success;
             box-sizing: border-box;
             will-change: height, top;
             animation: open-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) .65s both;
@@ -48,7 +48,7 @@
             top: 50%;
             left: 0;
             margin-top: -1px;
-            background-color: $c__se;
+            background-color: $color__secondary;
             will-change: width, opacity;
             animation: line-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) both;
         }
