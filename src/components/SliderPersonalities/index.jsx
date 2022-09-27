@@ -73,21 +73,18 @@ function Slider() {
           name="slider"
           title="slider2"
           className="slider__nav"
-          defaultChecked
         />
         <input
           type="radio"
           name="slider"
           title="slider3"
           className="slider__nav"
-          defaultChecked
         />
         <input
           type="radio"
           name="slider"
           title="slider4"
           className="slider__nav"
-          defaultChecked
         />
         <div className="slider__inner">
           <RenderSlidePersonalities />

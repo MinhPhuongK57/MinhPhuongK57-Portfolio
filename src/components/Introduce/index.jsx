@@ -23,7 +23,7 @@ const Introduce = () => {
               great pressure, hopefully, it is also an interesting experience
               for me to step to my success step by step.
             </p>
-            <a href="/MinhPhuongK57-Portfolio" className="popup__close">
+            <a href="/MinhPhuongK57-Portfolio/" className="popup__close">
               close
             </a>
           </div>
