@@ -36,7 +36,7 @@ const Menu = () => {
   const RenderLogo = () => {
     return (
       <a
-        href="/#"
+        href="MinhPhuongK57-Portfolio"
         className="logo__page wow animate__fadeInBottomLeft"
         data-wow-duration="0.4s"
         data-wow-delay="0.2s"
