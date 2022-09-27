@@ -1,5 +1,4 @@
 import React from "react";
-
 import Sliders from "../../components/slider_header/Sliders";
 import MenuResponsive from "../../components/MenuResponsive";
 import Header from "../../components/Header";
@@ -10,7 +9,6 @@ import Product from "../../components/Product";
 import Slider from "../../components/SliderPersonalities";
 import Footer from "../../components/Footer";
 import ScrollToTop from "../../components/ScrollToTop";
-import Search from "../../components/Search";
 
 function homepage() {
   return (
@@ -19,7 +17,6 @@ function homepage() {
       <Sliders />
       <Header />
       <Menu />
-      <Search />
       <Feature />
       <CV />
       <Product />

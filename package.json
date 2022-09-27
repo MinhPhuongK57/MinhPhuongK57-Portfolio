@@ -1,15 +1,18 @@
 {
-  "homepage": "https://MinhPhuongK57.github.io/KenCryStalK57/",
-  "name": "kencrystal",
+  "homepage": "https://MinhPhuongK57.github.io/MinhPhuongK57-Portfolio/",
+  "name": "MinhphuongK57",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "node-sass": "^7.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2",
     "surge": "^0.23.1",
     "web-vitals": "^2.1.4",
     "wowjs": "^1.1.3"

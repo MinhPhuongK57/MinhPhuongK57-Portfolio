@@ -1,0 +1,70 @@
+/*-----------Data Title-----------*/
+[data-title] {
+    position: relative;
+    opacity: 1;
+    outline: none;
+}
+
+[data-title]:hover::before {
+    content: attr(data-title);
+    position: absolute;
+    display: inline-block;
+    bottom: -3.5rem;
+    left: 0;
+    padding: 1rem 1.2rem;
+    border-radius: 0.3rem;
+    background: #fff;
+    color: $c__coral;
+    box-shadow: 3px 1px 15px 2px #9ecdff;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+[data-title]:hover::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    bottom: -0.8rem;
+    left: 0.5rem;
+    color: #fff;
+    border-bottom: 0.6rem solid #fff;
+    border: 0.6rem solid transparent;
+}
+
+[data1-title] {
+    position: relative;
+    opacity: 1;
+    outline: none;
+}
+
+[data1-title]:hover::before {
+    content: attr(data1-title);
+    position: absolute;
+    display: inline-block;
+    bottom: -4.2rem;
+    left: -0.5rem;
+    padding: 0.2rem 1rem;
+    border-radius: 0.3rem;
+    background: #fff;
+    color: $c__coral;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    box-shadow: 3px 1px 15px 2px #9ecdff;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+[data1-title]:hover::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0.4rem;
+    color: #fff;
+    border: 0.4rem solid transparent;
+    border-bottom: 0.4rem solid #fff;
+}
+
+/*-------------Data Title-----------*/

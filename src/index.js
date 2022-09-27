@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Kencrystal from "./Kencrystal";
+import App from "./App";
 
-const rootElement = document.getElementById("Kencrystal");
-ReactDOM.render(<Kencrystal />, rootElement);
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 //"https://github.com/MinhPhuongK57/KenCrystalK57.git",

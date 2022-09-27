@@ -1,0 +1,25 @@
+/*-----Start Scroll go up-----*/
+#btn__go-up {
+    @include dl__flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    bottom: 1rem;
+    right: 1rem;
+    position: fixed;
+    background: $c__su;
+    color: $c__coral;
+    cursor: pointer;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+    outline: none;
+    transition: all 0.3s linear;
+    box-shadow: 3px 1px 15px 2px #9ecdff;
+}
+
+#btn__go-up:hover {
+    transition: all 0.2s linear;
+    color: $c__coral;
+    background: $c__su;
+}
+
+/*-----End Scroll go up-----*/

@@ -1,8 +1,8 @@
-import "./scss/Kencrystal.css";
+import "./styles/App.scss";
 import React, { Component } from "react";
 import Home from "./pages/homepage";
 import WOW from "wowjs";
-class Kencrystal extends Component {
+class App extends Component {
   componentDidMount() {
     new WOW.WOW({
       live: false,
@@ -16,4 +16,4 @@ class Kencrystal extends Component {
     );
   }
 }
-export default Kencrystal;
+export default App;

@@ -1,0 +1,19 @@
+/*-----Scroll-----*/
+::-webkit-scrollbar {
+    max-width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(white, $c__su, white);
+    border-radius: 0.5rem;
+
+    &:hover {
+        background: linear-gradient($c__su, $c__su, $c__su);
+    }
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(#cde8f8, $c__se);
+}
+
+/*-----End Scroll-----*/
