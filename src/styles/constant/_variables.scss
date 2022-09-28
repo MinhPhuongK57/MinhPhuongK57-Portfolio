@@ -1,7 +1,19 @@
+//Font Family Variable
+$fontFamily__primary: 'Poppins',
+sans-serif;
+$fontFamily__secondary: 'Satisfy',
+cursive;
+
+//Color Variable
 $color__primary: #051937;
 $color__secondary : #4488af;
 $color__success:#F5FAFE;
 $color__coral:coral;
 
-$font__family: 'Poppins',
-sans-serif;
+//Linear Gradient
+$bgLinearGradient__primary:linear-gradient(90.06deg, #f86086 -4.45%, #fe8d77 104.12%);
+$bgLinearGradient__secondary:linear-gradient(90.06deg, #2cccff -4.45%, #22dfbf 104.12%);
+$textLinearGradient__primary:linear-gradient(90.06deg, #f86086 -4.45%, $color__coral 104.12%);
+
+//Box Shadow
+$boxShadow__primary: 3px 1px 15px 2px rgb(237, 248, 255);

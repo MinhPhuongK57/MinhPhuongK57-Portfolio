@@ -11,20 +11,20 @@ import Footer from "../../components/Footer";
 import ScrollToTop from "../../components/ScrollToTop";
 
 function homepage() {
-  return (
-    <div>
-      <MenuResponsive />
-      <Sliders />
-      <Introduce />
-      <Menu />
-      <Feature />
-      <CV />
-      <Product />
-      <Slider />
-      <Footer />
-      <ScrollToTop />
-    </div>
-  );
+    return (
+        <div>
+            <MenuResponsive />
+            <Sliders />
+            <Introduce />
+            <Menu />
+            <Feature />
+            <CV />
+            <Product />
+            <Slider />
+            <Footer />
+            <ScrollToTop />
+        </div>
+    );
 }
 
 export default homepage;

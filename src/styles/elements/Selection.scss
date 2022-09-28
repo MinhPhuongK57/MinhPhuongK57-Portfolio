@@ -1,0 +1,14 @@
+::selection {
+    color: $color__coral;
+    background-color: transparent;
+}
+
+::-webkit-selection {
+    color: $color__coral;
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: $color__coral;
+    background-color: transparent;
+}

@@ -1,132 +1,29 @@
+//Constant
 @import "./constant/reset";
 @import "./constant/mixins";
 @import "./constant/variables";
 @import "./constant/data_title";
-@import "./ScrollBar.scss";
-@import "./Selection.scss";
-@import "./ScrollToTop.scss";
-@import "./components/Sliders.scss";
-@import "./components/MenuResponsive.scss";
-@import "./components/Menu.scss";
-@import "./components/PopupPage.scss";
-@import "./components/kencrylist.scss";
-@import "./components/Feature.scss";
-@import "./components/CurriculumVitae.scss";
-@import "./components/Product.scss";
-@import "./components/Slider.scss";
-@import "./components/Banner.scss";
-@import "./components/Footer.scss";
+
+//Global
+@import "./global.scss";
+
+//Elements
+@import "./elements/ScrollBar.scss";
+@import "./elements/Selection.scss";
+@import "./elements/ScrollToTop.scss";
+
+//Containers
+@import "./containers/Sliders.scss";
+@import "./containers/MenuResponsive.scss";
+@import "./containers/Menu.scss";
+@import "./containers/PopupPage.scss";
+@import "./containers/kencrylist.scss";
+@import "./containers/Feature.scss";
+@import "./containers/CurriculumVitae.scss";
+@import "./containers/Product.scss";
+@import "./containers/Slider.scss";
+@import "./containers/Banner.scss";
+@import "./containers/Footer.scss";
+
+//Font
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 100%;
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: $font__family;
-    width: 100%;
-    min-height: 100vh;
-    background: #fafaff;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-}
-
-a {
-    outline: none;
-}
-
-.container {
-    position: relative;
-    width: 100%;
-    max-width: 1540px;
-    margin: 0 auto;
-}
-
-.con_pad {
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-@media only screen and (max-width:1024px) {
-    body {
-        width: 100%;
-        min-height: 100vh;
-    }
-
-    .container {
-        width: 100%;
-        max-width: 1024px;
-    }
-
-    .con_pad {
-        width: 100%;
-        max-width: 1024px;
-    }
-}
-
-@media only screen and (max-width:768px) {
-    body {
-        width: 100%;
-        min-height: 100vh;
-    }
-
-    .container {
-        width: 100%;
-        max-width: 768px;
-    }
-
-    .con_pad {
-        width: 100%;
-        max-width: 768px;
-    }
-}
-
-@media only screen and (max-width:590px) {
-    body {
-        width: 100%;
-        max-width: 590px;
-    }
-}
-
-@media only screen and (max-width:520px) {
-    body {
-        width: 100%;
-        min-height: 100vh;
-    }
-
-    .container {
-        width: 100%;
-        max-width: 500px;
-    }
-
-    .con_pad {
-        width: 100%;
-        max-width: 500px;
-    }
-}
-
-@media only screen and (max-width:380px) {
-    body {
-        width: 100%;
-        min-height: 100vh;
-    }
-
-    .container {
-        width: 100%;
-        max-width: 380px;
-    }
-
-    .con_pad {
-        width: 100%;
-        max-width: 380px;
-    }
-}
