@@ -1,4 +1,8 @@
-*.scss linguist-detectable=false
-*.css linguist-detectable=false
-*.html linguist-detectable=false
 *.js linguist-detectable=true
+*.scss linguist-detectable=false
+*.html linguist-detectable=false
+*.less linguist-detectable=false
+*.dart linguist-detectable=false
+*.ts linguist-detectable=false
+*.cs linguist-detectable=false
+*.css linguist-detectable=false
