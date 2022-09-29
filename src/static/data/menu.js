@@ -62,7 +62,7 @@ export const menuLinkRight = [
 ];
 
 export const menuResponsive = [
-    { id: 1, link: "/MinhPhuongK57-Portfolio/#", name: "home" },
+    { id: 1, link: "/MinhPhuongK57-Portfolio/", name: "home" },
     { id: 2, link: "/MinhPhuongK57-Portfolio/#feature", name: "feature" },
     { id: 3, link: "/MinhPhuongK57-Portfolio/#cv", name: "resume" },
     { id: 4, link: "/MinhPhuongK57-Portfolio/#product", name: "product" },

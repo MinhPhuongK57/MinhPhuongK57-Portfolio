@@ -1,19 +1,19 @@
 /*-----Scroll-----*/
 ::-webkit-scrollbar {
-    max-width: 0.5rem;
+    max-width: 0.8rem;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(white, $color__success, white);
+    background: $bgLinearGradient__primary;
     border-radius: 0.5rem;
 
     &:hover {
-        background: linear-gradient($color__success, $color__success, $color__success);
+        background: $bgLinearGradient__primary;
     }
 }
 
 ::-webkit-scrollbar-track {
-    background: linear-gradient(#cde8f8, $color__secondary);
+    background: linear-gradient(#cde8f8, #fff);
 }
 
 /*-----End Scroll-----*/

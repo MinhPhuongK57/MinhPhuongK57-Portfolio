@@ -12,10 +12,14 @@ function CV() {
                 >
                     Curriculum vitae
                 </h2>
-                <a href={Resume} download className="cv--button">
+                <a href={Resume} download className="cv--button wow animate__flipInX"
+                    data-wow-duration="0.3s"
+                    data-wow-delay="0.2s">
                     Download CV now
                 </a>
-                <div className="cv--img">
+                <div className="cv--img wow animate__pulse"
+                    data-wow-duration="0.3s"
+                    data-wow-delay="0.2s">
                     <img src={Images} alt="CV" />
                 </div>
             </div>

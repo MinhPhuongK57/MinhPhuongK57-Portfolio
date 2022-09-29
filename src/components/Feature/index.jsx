@@ -1,5 +1,6 @@
 import React from "react";
 import { featureQuotes } from "../../static/data/features";
+// import TechnologyUsed from "../TechnologyUsed";
 function Feature() {
     const RenderFeatureQuotes = () => {
         return featureQuotes.map((quote, index) => {
@@ -8,7 +9,7 @@ function Feature() {
                     <img
                         src={quote.image}
                         alt=""
-                        className="grid-images wow animate__backInUp"
+                        className="grid-images wow animate__fadeInUp"
                         data-wow-duration="0.3s"
                         data-wow-delay="0.2s"
                     />
@@ -40,6 +41,7 @@ function Feature() {
                 <div className="grid__page">
                     <RenderFeatureQuotes />
                 </div>
+                {/* <TechnologyUsed /> */}
             </div>
         </div>
     );

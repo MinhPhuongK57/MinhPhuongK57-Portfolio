@@ -1,5 +1,6 @@
 import React from "react";
 import { menuResponsive } from "../../static/data/menu";
+import ScrollToTop from "../ScrollToTop";
 function MenuResponsive() {
     const RenderMenuResponsive = () => {
         return menuResponsive.map((item, index) => {
@@ -23,6 +24,7 @@ function MenuResponsive() {
                     <ul className="wrapper__responsive--ul">
                         <RenderMenuResponsive />
                     </ul>
+                    <ScrollToTop />
                 </div>
             </div>
         </div>

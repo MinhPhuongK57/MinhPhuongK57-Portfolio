@@ -10,7 +10,7 @@ function Footer() {
                         <a
                             key={index}
                             href={item.link}
-                            data1-title={item.dataTitle}
+                            data-title-item={item.dataTitle}
                             className={item.className}
                             data-wow-duration={item.duration}
                             data-wow-delay={item.delay}
@@ -33,7 +33,7 @@ function Footer() {
                     data-wow-delay="0.1s"
                 >
                     <h4 className="footer__contact--title">
-                        Custom Form Contact
+                        Form Contact
                     </h4>
                     <FormContact />
                 </div>
@@ -45,7 +45,7 @@ function Footer() {
                     Ken<span className="coral">Cry</span>stal
                 </h2>
                 <p
-                    className="footer-title  wow animate__fadeInUp"
+                    className="footer-title wow animate__fadeInUp"
                     data-wow-duration="0.4s"
                     data-wow-delay="0.3s"
                 >
@@ -59,7 +59,6 @@ function Footer() {
                     className="footer-email wow animate__fadeInUp"
                     data-wow-duration="0.3s"
                     data-wow-delay="0.4s"
-                    data1-title="minhphuongk57.dev@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                 >

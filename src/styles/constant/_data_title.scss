@@ -1,8 +1,10 @@
 /*-----------Data Title-----------*/
-[data-title] {
+[data-title],
+[data-title-item] {
     position: relative;
     opacity: 1;
     outline: none;
+    z-index: 1;
 }
 
 [data-title]:hover::before {
@@ -15,8 +17,10 @@
     border-radius: 0.3rem;
     background: #fff;
     color: $color__coral;
-    box-shadow: 3px 1px 15px 2px #9ecdff;
+    // box-shadow: $boxShadow__primary;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     font-family: $fontFamily__primary;
+    font-weight: 500;
     white-space: nowrap;
     font-size: 0.9rem;
     letter-spacing: 1px;
@@ -33,14 +37,8 @@
     border: 0.6rem solid transparent;
 }
 
-[data1-title] {
-    position: relative;
-    opacity: 1;
-    outline: none;
-}
-
-[data1-title]:hover::before {
-    content: attr(data1-title);
+[data-title-item]:hover::before {
+    content: attr(data-title-item);
     position: absolute;
     display: inline-block;
     bottom: -4.2rem;
@@ -51,12 +49,14 @@
     color: $color__coral;
     font-family: $fontFamily__primary;
     font-size: 0.9rem;
-    box-shadow: 3px 1px 15px 2px #9ecdff;
+    font-weight: 600;
+    // box-shadow: $boxShadow__primary;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     letter-spacing: 1px;
     white-space: nowrap;
 }
 
-[data1-title]:hover::after {
+[data-title-item]:hover::after {
     content: '';
     display: inline-block;
     position: absolute;

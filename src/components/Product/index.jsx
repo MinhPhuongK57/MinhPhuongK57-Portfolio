@@ -4,7 +4,9 @@ function Product() {
     const RenderProduct = () => {
         return listProducts.map((product, index) => {
             return (
-                <div className="product__main--content" key={index}>
+                <div className={product.className} key={index}
+                    data-wow-duration="0.3s"
+                    data-wow-delay="0.4s">
                     <div className="product--image">
                         <img
                             className="product--image-border"
@@ -15,7 +17,7 @@ function Product() {
                     <div className="product__text">
                         <h4 className="product__text--title">{product.title}</h4>
                         <span className="product__text--time">
-                            <strong>Time:</strong><p>{product.timeFrom + ` - ` + product.timeTo}</p>
+                            <strong>Time:</strong><p>{product.time}</p>
                         </span>
                         <span className="product__text--description">
                             <strong>Description: </strong> {product.description}

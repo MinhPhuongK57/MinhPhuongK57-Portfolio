@@ -19,9 +19,7 @@ const Introduce = () => {
                             technology industry.
                             <br />
                             <br />
-                            The effort every day in me to complete the assigned tasks under
-                            great pressure, hopefully, it is also an interesting experience
-                            for me to step to my success step by step.
+                            You can see my CV in the <a href="/MinhPhuongK57-Portfolio/#cv"><strong title="Curriculum Vitae">Resume</strong></a> section, thanks a lot
                         </p>
                         <a href="/MinhPhuongK57-Portfolio/" className="popup__close">
                             close

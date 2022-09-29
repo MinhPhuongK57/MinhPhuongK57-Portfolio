@@ -1,7 +1,7 @@
 /*---------------Footer-----------------*/
 .footer {
     position: relative;
-    background: $color__primary;
+    background: $color__black;
     color: #fff;
     margin-top: 4rem;
     padding-top: 8rem;
@@ -61,7 +61,6 @@
                     background-color: #fff;
                     display: inline-block;
                 }
-
             }
 
             .form-label {
@@ -108,7 +107,7 @@
         position: relative;
         padding-top: 1.5rem;
         font-family: $fontFamily__secondary;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         letter-spacing: 0.5rem;
 
         &::before {
@@ -117,20 +116,20 @@
             display: block;
             top: 70%;
             left: 0;
-            height: 1px;
+            height: 1.5px;
             width: 40%;
-            background: #fff;
+            background: $bgLinearGradient__primary;
         }
 
         &::after {
             content: "";
             position: absolute;
             display: block;
-            height: 1px;
+            height: 1.5px;
             width: 40%;
             top: 70%;
             right: 0;
-            background: #fff;
+            background: $bgLinearGradient__primary;
         }
     }
 
@@ -138,6 +137,7 @@
         position: relative;
         margin-top: 1rem;
         font-size: 1.1rem;
+        font-weight: 500;
         letter-spacing: 3px;
         text-transform: uppercase;
 
@@ -145,11 +145,11 @@
             content: "";
             position: absolute;
             display: block;
-            width: 1px;
+            width: 1.5px;
             height: 4rem;
             top: 100%;
             left: 50%;
-            background: #fff;
+            background: $color__white;
             transform: translateX(-50%);
         }
     }
@@ -170,10 +170,35 @@
     }
 
     &-email {
+        position: relative;
         padding: 0.8rem 1rem;
         color: #fff;
-        border-radius: 0.3rem;
-        border: 1px solid #fff;
+        overflow: hidden;
+        border-radius: 1rem;
+        border: 0.1rem solid;
+        border-image: $bgLinearGradient__secondary 1;
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            height: 0.1rem;
+            opacity: 0;
+            visibility: hidden;
+            background: $bgLinearGradient__secondary;
+            transition: all 0.25s linear;
+            bottom: 15%;
+            left: 5%;
+            right: 5%;
+        }
+
+        &:hover::after {
+            opacity: 1;
+            visibility: visible;
+            bottom: 25%;
+            transform: translateY(25%);
+            transition: all 0.25s linear;
+        }
 
         &:hover {
             color: $color__success;
@@ -188,18 +213,18 @@
     }
 }
 
-@media only screen and (max-width:1075px) {
+@media only screen and (max-width: 1075px) {
     .footer {
         &__contact {
             &--title {
                 font-weight: 500;
-                font-size: 1rem;
+                font-size: 1.2rem;
             }
         }
     }
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
     .footer {
         padding-top: 10rem;
         margin-top: 6rem;
@@ -233,8 +258,7 @@
         }
 
         &-logo {
-            font-family: 'Satisfy',
-                cursive;
+            font-family: $fontFamily__secondary;
             padding-top: 2rem;
             font-size: 2.4rem;
             letter-spacing: 0.5rem;
@@ -260,7 +284,7 @@
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     .footer {
         &__contact {
             left: 0;
@@ -280,6 +304,7 @@
 
                 .form-label {
                     font-size: 1rem;
+                    left: 10%;
                 }
 
                 .form-btn {
@@ -293,8 +318,7 @@
         }
 
         &-logo {
-            font-family: 'Satisfy',
-                cursive;
+            font-family: $fontFamily__secondary;
             font-size: 2.4rem;
             padding-top: 2rem;
             letter-spacing: 0.5rem;
@@ -322,7 +346,7 @@
     }
 }
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width: 640px) {
     .footer {
         &__contact {
             top: -9rem;
@@ -331,17 +355,21 @@
 
             &--title {
                 white-space: wrap;
-                font-size: 1rem;
+                text-align: left;
+                display: inline-block;
+                font-size: 1.2rem;
                 padding-left: 1.5rem;
             }
 
             &--form {
                 height: 8rem;
                 flex-direction: column;
+                width: 100%;
 
                 .form-input {
+                    width: 100%;
+                    max-width: 500px;
                     height: 5rem;
-                    width: 550px;
                     font-size: 1.1rem;
                 }
 
@@ -363,30 +391,34 @@
     }
 }
 
-@media only screen and (max-width:520px) {
+@media only screen and (max-width: 520px) {
     .footer {
         &__contact {
             top: -11rem;
             border-radius: 0;
+            padding: 0 1rem;
+            @include dl__flex;
 
             &--title {
-                width: 480px;
-                text-align: left;
-                font-size: 1.2rem;
+                text-align: center;
+                font-size: 1.3rem;
                 white-space: wrap;
+                margin-bottom: 2rem;
             }
 
             &--form {
                 .form-input {
-                    width: 440px;
                     font-size: 1.1rem;
+                }
+
+                .form-btn {
+                    margin-top: 1rem;
                 }
             }
         }
 
         &-logo {
-            font-family: 'Satisfy',
-                cursive;
+            font-family: $fontFamily__secondary;
             padding-top: 2rem;
             font-size: 2.4rem;
             letter-spacing: 0.5rem;
@@ -398,41 +430,6 @@
 
             &::after {
                 width: 27%;
-                right: 0;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width:380px) {
-    // .footer {
-    //     &__contact {
-    //         &--title {
-    //             white-space: wrap;
-    //             font-size: 1.2rem;
-    //             width: 480px;
-    //             text-align: left;
-    //         }
-
-    //         &--form {
-    //             .form-input {
-    //                 width: 440px;
-    //                 font-size: 1.1rem;
-    //             }
-    //         }
-    //     }
-    // }
-    .footer {
-        &-logo {
-            font-size: 2.5rem;
-
-            &::before {
-                width: 17%;
-                left: 0;
-            }
-
-            &::after {
-                width: 20%;
                 right: 0;
             }
         }
