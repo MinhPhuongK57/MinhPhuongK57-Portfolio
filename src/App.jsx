@@ -1,19 +1,20 @@
+import React, { useEffect } from "react";
 import "./styles/app.scss";
-import React, { Component } from "react";
-import Home from "./pages/homepage";
+import Home from "./pages/Home";
 import WOW from "wowjs";
-class App extends Component {
-    componentDidMount() {
+
+function App() {
+    useEffect(() => {
         new WOW.WOW({
             live: false,
+            // mobile: false
         }).init();
-    }
-    render() {
-        return (
-            <div className="container">
-                <Home />
-            </div>
-        );
-    }
+    }, []);
+
+    return (
+        <div className="container">
+            <Home />
+        </div>
+    );
 }
 export default App;

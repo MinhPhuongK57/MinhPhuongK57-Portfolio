@@ -5,8 +5,8 @@ function Product() {
         return listProducts.map((product, index) => {
             return (
                 <div className={product.className} key={index}
-                    data-wow-duration="0.3s"
-                    data-wow-delay="0.4s">
+                    data-wow-duration="0.4s"
+                    data-wow-delay="0.2s">
                     <div className="product--image">
                         <img
                             className="product--image-border"

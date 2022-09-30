@@ -15,8 +15,8 @@ function Feature() {
                     />
                     <div
                         className="grid-content wow animate__backInUp"
-                        data-wow-duration="0.4s"
-                        data-wow-delay="0.25s"
+                        data-wow-duration="0.3s"
+                        data-wow-delay="0.2s"
                     >
                         {quote.description}
                     </div>

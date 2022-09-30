@@ -1,5 +1,5 @@
 import React from "react";
-import Sliders from "../../components/slider_header/Sliders";
+import Sliders from "../../components/SliderHeader/Sliders";
 import MenuResponsive from "../../components/MenuResponsive";
 import Introduce from "../../components/Introduce";
 import Menu from "../../components/Menu";
@@ -10,7 +10,7 @@ import Slider from "../../components/SliderPersonalities";
 import Footer from "../../components/Footer";
 import ScrollToTop from "../../components/ScrollToTop";
 
-function homepage() {
+function Home() {
     return (
         <div>
             <MenuResponsive />
@@ -27,4 +27,4 @@ function homepage() {
     );
 }
 
-export default homepage;
+export default Home;

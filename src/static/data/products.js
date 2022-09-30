@@ -69,7 +69,7 @@ export const listProducts = [
         time: "Jun 2021 - Sep 2021",
         description:
             "A website to introduce myself. include personal information, completed projects.",
-        technologies: "ReactJS, HTML, CSS(SCSS), WOWJS.",
+        technologies: "ReactJS(React-Hooks), HTML, CSS(SCSS), WOWJS.",
         linkDeploy: "https://minhphuongk57.github.io/MinhPhuongK57-Portfolio",
         source: "https://github.com/MinhPhuongK57/MinhPhuongK57-Portfolio.git",
         className: "product__main--content wow animate__fadeInLeft",

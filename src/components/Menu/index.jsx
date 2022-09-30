@@ -9,7 +9,7 @@ const Menu = () => {
                         href={item.link}
                         className="menu__website--link wow animate__fadeInDown"
                         data-wow-duration="0.4s"
-                        data-wow-delay="0.35s"
+                        data-wow-delay="0.3s"
                     >
                         {item.name}
                     </a>
