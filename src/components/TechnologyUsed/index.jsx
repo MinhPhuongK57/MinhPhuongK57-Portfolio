@@ -2,7 +2,7 @@ import React from 'react'
 
 const TechnologyUsed = () => {
     return (
-        <div className="technology">
+        <section className="technology">
             <h2
                 className="grid--title wow animate__fadeInUp"
                 data-wow-duration="0.3s"
@@ -10,7 +10,7 @@ const TechnologyUsed = () => {
             >
                 Skills And technologies
             </h2>
-        </div>
+        </section>
     )
 }
 export default TechnologyUsed;

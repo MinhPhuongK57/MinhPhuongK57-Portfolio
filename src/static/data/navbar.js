@@ -1,4 +1,4 @@
-export const menuLinkCenter = [
+export const navbarLinkCenter = [
     {
         id: 1,
         link: "/MinhPhuongK57-Portfolio/#",
@@ -31,11 +31,11 @@ export const menuLinkCenter = [
     },
 ];
 
-export const menuLinkRight = [
+export const navbarLinkRight = [
     {
         id: 1,
         link: "https://www.facebook.com/minhphuongk57/",
-        className: "menu__list--icon wow animate__fadeInBottomRight",
+        className: "navbar__list--icon wow animate__fadeInBottomRight",
         duration: "0.2s",
         delay: "0.2s",
         dataTitle: "Facebook",
@@ -44,7 +44,7 @@ export const menuLinkRight = [
     {
         id: 2,
         link: "https://www.linkedin.com/in/minhphuongk57/",
-        className: "menu__list--icon wow animate__fadeInBottomRight",
+        className: "navbar__list--icon wow animate__fadeInBottomRight",
         duration: "0.23s",
         delay: "0.23s",
         dataTitle: "LinkedIn",
@@ -53,7 +53,7 @@ export const menuLinkRight = [
     {
         id: 3,
         link: "https://github.com/MinhPhuongK57",
-        className: "menu__list--icon wow animate__fadeInBottomRight",
+        className: "navbar__list--icon wow animate__fadeInBottomRight",
         duration: "0.27s",
         delay: "0.27s",
         dataTitle: "Github",
@@ -61,7 +61,7 @@ export const menuLinkRight = [
     },
 ];
 
-export const menuResponsive = [
+export const navbarResponsive = [
     { id: 1, link: "/MinhPhuongK57-Portfolio/", name: "home" },
     { id: 2, link: "/MinhPhuongK57-Portfolio/#feature", name: "feature" },
     { id: 3, link: "/MinhPhuongK57-Portfolio/#cv", name: "resume" },

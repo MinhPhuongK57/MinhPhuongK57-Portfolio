@@ -17,7 +17,7 @@ function Sliders() {
     }, [activeIndex]);
 
     return (
-        <div className="sliders">
+        <header className="sliders">
             <SliderContent activeIndex={activeIndex} SliderImages={SliderImages} />
             <Arrows
                 prevSlide={() =>
@@ -32,7 +32,7 @@ function Sliders() {
                 SliderImages={SliderImages}
                 onclick={(activeIndex) => setActiveIndex(activeIndex)}
             />
-        </div>
+        </header>
     );
 }
 

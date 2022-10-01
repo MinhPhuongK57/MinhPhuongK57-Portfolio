@@ -1,13 +1,13 @@
 import React from "react";
-import { menuLinkCenter, menuLinkRight } from "../../static/data/menu";
-const Menu = () => {
-    const RenderMenuCenter = () => {
-        return menuLinkCenter.map((item, index) => {
+import { navbarLinkCenter, navbarLinkRight } from "../../static/data/navbar";
+const Navbar = () => {
+    const RenderNavbarCenter = () => {
+        return navbarLinkCenter.map((item, index) => {
             return (
-                <li key={index} className="menu__website--li">
+                <li key={index} className="navbar__website--li">
                     <a
                         href={item.link}
-                        className="menu__website--link wow animate__fadeInDown"
+                        className="navbar__website--link wow animate__fadeInDown"
                         data-wow-duration="0.4s"
                         data-wow-delay="0.3s"
                     >
@@ -17,8 +17,8 @@ const Menu = () => {
             );
         });
     };
-    const RenderMenuRight = () => {
-        return menuLinkRight.map((item, index) => (
+    const RenderNavbarRight = () => {
+        return navbarLinkRight.map((item, index) => (
             <a
                 key={index}
                 href={item.link}
@@ -47,18 +47,18 @@ const Menu = () => {
     };
 
     return (
-        <div className="menu__website">
-            <div className="container__menu">
+        <menu className="navbar__website">
+            <div className="container__navbar">
                 <RenderLogo />
-                <ul className="menu__website--main">
-                    <RenderMenuCenter />
+                <ul className="navbar__website--main">
+                    <RenderNavbarCenter />
                 </ul>
-                <div className="menu__website--list">
-                    <RenderMenuRight />
+                <div className="navbar__website--list">
+                    <RenderNavbarRight />
                 </div>
             </div>
-        </div>
+        </menu>
     );
 };
 
-export default Menu;
+export default Navbar;

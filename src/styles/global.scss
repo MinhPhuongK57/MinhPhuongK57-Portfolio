@@ -23,6 +23,10 @@ a {
     outline: none;
 }
 
+img {
+    pointer-events: none;
+}
+
 .container {
     position: relative;
     width: 100%;

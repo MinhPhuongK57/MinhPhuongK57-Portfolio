@@ -58,7 +58,7 @@ function Slider() {
         );
     };
     return (
-        <div className="container">
+        <section className="container">
             <RenderBannerImage />
             <div className="slider">
                 <input
@@ -90,7 +90,7 @@ function Slider() {
                     <RenderSlidePersonalities />
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

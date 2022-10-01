@@ -55,7 +55,7 @@ function Product() {
         });
     };
     return (
-        <div className="container con_pad" id="product">
+        <section className="container con_pad" id="product">
             <div className="product">
                 <h2
                     className="product--title wow animate__fadeInUp"
@@ -68,7 +68,7 @@ function Product() {
                     <RenderProduct />
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 export default Product;

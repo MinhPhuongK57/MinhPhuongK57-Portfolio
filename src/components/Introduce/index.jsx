@@ -1,14 +1,14 @@
 import React from "react";
 const Introduce = () => {
     return (
-        <div className="page">
+        <section className="page">
             <div className="page__container">
                 <div id="popup-article" className="popup">
                     <div className="popup__block">
-                        <a href="/MinhPhuongK57-Portfolio" className="popup__titleh1">
+                        <a href="/MinhPhuongK57-Portfolio/#" className="popup__title">
                             Ken<span className="coral">Cry</span>Stal
                         </a>
-                        <p className="popup__title">
+                        <p className="popup__description">
                             <br />
                             This is a personal website written by
                             <strong title="Trần Minh Phường"> myself</strong> in basic
@@ -21,13 +21,13 @@ const Introduce = () => {
                             <br />
                             You can see my CV in the <a href="/MinhPhuongK57-Portfolio/#cv"><strong title="Curriculum Vitae">Resume</strong></a> section, thanks a lot
                         </p>
-                        <a href="/MinhPhuongK57-Portfolio/" className="popup__close">
+                        <a href="/MinhPhuongK57-Portfolio/#" className="popup__close">
                             close
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

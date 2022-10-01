@@ -25,7 +25,7 @@ function Footer() {
         );
     };
     return (
-        <div className="container" id="contact">
+        <footer className="container" id="contact">
             <div className="footer">
                 <div
                     className="footer__contact  wow animate__fadeInUp"
@@ -73,7 +73,7 @@ function Footer() {
                     TranMinhPhuong
                 </p>
             </div>
-        </div>
+        </footer>
     );
 }
 

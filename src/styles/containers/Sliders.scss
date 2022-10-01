@@ -22,31 +22,6 @@
             letter-spacing: 4px;
             font-size: 2rem;
         }
-
-        &--account {
-            display: inline-flex;
-            font-weight: 400;
-            font-size: 1rem;
-            letter-spacing: 2px;
-
-            .account-login,
-            .account-register {
-                padding: 0.5rem 0.8rem;
-                color: $color__success;
-                border: 1px solid $color__success;
-                border-radius: 1rem;
-                transition: all 0.3s linear;
-
-                &:hover {
-                    color: $color__coral;
-                    transition: all 0.3s linear;
-                }
-            }
-
-            .account-login {
-                margin-right: 0.5rem;
-            }
-        }
     }
 
     &-image {
@@ -63,6 +38,7 @@
 
     &-title,
     &-description {
+        pointer-events: none;
         position: absolute;
         top: 30%;
         text-align: center;

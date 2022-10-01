@@ -23,15 +23,13 @@ const ScrollToTop = () => {
     }
 
     return (
-        <div>
+        <>
             {showButton && (
-                <div onClick={backToTop}>
-                    <button id="btn__go-up" type="button">
-                        <i className="far fa-arrow-alt-circle-up"></i>
-                    </button>
-                </div>
+                <button onClick={backToTop} id="btn__scrollToTop" type="button">
+                    <i className="far fa-arrow-alt-circle-up"></i>
+                </button>
             )}
-        </div>
+        </>
     )
 }
 

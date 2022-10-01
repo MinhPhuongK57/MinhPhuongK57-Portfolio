@@ -29,21 +29,19 @@ function Feature() {
         });
     };
     return (
-        <div>
-            <div className="con_pad grid" id="feature">
-                <h2
-                    className="grid--title wow animate__fadeInUp"
-                    data-wow-duration="0.3s"
-                    data-wow-delay="0.2s"
-                >
-                    Quotes Thomas Edison
-                </h2>
-                <div className="grid__page">
-                    <RenderFeatureQuotes />
-                </div>
-                {/* <TechnologyUsed /> */}
+        <section className="con_pad grid" id="feature">
+            <h2
+                className="grid--title wow animate__fadeInUp"
+                data-wow-duration="0.3s"
+                data-wow-delay="0.2s"
+            >
+                Quotes Thomas Edison
+            </h2>
+            <div className="grid__page">
+                <RenderFeatureQuotes />
             </div>
-        </div>
+            {/* <TechnologyUsed /> */}
+        </section>
     );
 }
 

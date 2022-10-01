@@ -1,9 +1,9 @@
 /*------------------------------------------------*/
-.menu_responsive {
+.navbar_responsive {
     display: none;
 }
 
-/*---Menu__responsive---*/
+/*---navbar__responsive---*/
 .wrapper__responsive {
     position: fixed;
     width: 55%;
@@ -78,7 +78,7 @@
     clip-path: circle(75%);
 }
 
-.menu-btn {
+.navbar-btn {
     @include dl__flex;
     cursor: pointer;
     position: fixed;
@@ -101,12 +101,12 @@
     border: none;
 }
 
-#active:checked~.menu-btn {
+#active:checked~.navbar-btn {
     background: #fff;
     color: $color__coral;
 }
 
-#active:checked~.menu-btn i:before {
+#active:checked~.navbar-btn i:before {
     content: "\f00d";
 }
 
@@ -125,9 +125,9 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width:1024px) {
-    .menu_responsive {
+    .navbar_responsive {
         display: block;
     }
 }
 
-/*---Menu__responsive---*/
+/*---Navbar__responsive---*/

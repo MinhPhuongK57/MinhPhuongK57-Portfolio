@@ -1,5 +1,5 @@
-/*---------------Start Menu Website-----------------*/
-.menu__website {
+/*---------------Start Navbar Website-----------------*/
+.navbar__website {
     position: sticky;
     width: 100%;
     height: 100%;
@@ -10,7 +10,7 @@
     box-shadow: $boxShadow__primary;
     z-index: 999999999;
 
-    .container__menu {
+    .container__navbar {
         @include dl__flex;
         position: relative;
         justify-content: space-around;
@@ -67,7 +67,6 @@
 
     &--li {
         margin-right: 0.8rem;
-        text-transform: capitalize;
 
         &:last-child {
             margin-right: 0;
@@ -140,7 +139,7 @@
         @include dl__flex;
         flex-direction: row;
 
-        a.menu__list--icon {
+        a.navbar__list--icon {
             padding: 0.5rem;
             margin-right: 0.3rem;
             border-radius: 50%;
@@ -175,7 +174,7 @@
 }
 
 @media only screen and (max-width:1024px) {
-    .menu__website {
+    .navbar__website {
         display: none;
     }
 }

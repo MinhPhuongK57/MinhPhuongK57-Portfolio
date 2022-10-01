@@ -3,7 +3,7 @@ import Images from "../../assets/MinhPhuong.png";
 import Resume from "../../assets/MinhPhuong.pdf"
 function CV() {
     return (
-        <div className="container con_pad" id="cv">
+        <section className="container con_pad" id="cv">
             <div className="cv">
                 <h2
                     className="cv--title wow animate__fadeInUp"
@@ -23,7 +23,7 @@ function CV() {
                     <img src={Images} alt="CV" />
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 export default CV;

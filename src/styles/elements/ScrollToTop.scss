@@ -1,5 +1,5 @@
 /*-----Start Scroll go up-----*/
-#btn__go-up {
+#btn__scrollToTop {
     @include dl__flex;
     height: 2.5rem;
     width: 2.5rem;
@@ -16,7 +16,7 @@
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-#btn__go-up:hover {
+#btn__scrollToTop:hover {
     transition: all 0.3s linear;
     color: $color__coral;
     box-shadow: $boxShadow__primary;
