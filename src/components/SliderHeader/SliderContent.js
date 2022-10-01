@@ -10,7 +10,7 @@ function SliderContent({ activeIndex, SliderImages }) {
                 >
                     <div className="sliders-content">
                         <a
-                            href="/#"
+                            href="/MinhPhuongK57-Portfolio/#"
                             className="sliders-content--logo wow animate__fadeInDown"
                             data-wow-duration="0.4s"
                             data-wow-delay="0.2s"
