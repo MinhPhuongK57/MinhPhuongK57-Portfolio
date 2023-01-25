@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MinhPhuongK57-Portfolio/static/css/main.3cd50aa7.css",
-    "main.js": "/MinhPhuongK57-Portfolio/static/js/main.610194ff.js",
-    "static/media/MinhPhuong.pdf": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.64745c5d186360ea27b0.pdf",
-    "static/media/MinhPhuong.png": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.bf5e3f9471ea4a70991e.png",
+    "main.css": "/MinhPhuongK57-Portfolio/static/css/main.b0ddf112.css",
+    "main.js": "/MinhPhuongK57-Portfolio/static/js/main.a66a06a8.js",
+    "static/media/MinhPhuong.png": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.a7fdc972a62e1aa14bd5.png",
+    "static/media/MinhPhuong.pdf": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.9974bc71b88046d98227.pdf",
     "index.html": "/MinhPhuongK57-Portfolio/index.html",
-    "main.3cd50aa7.css.map": "/MinhPhuongK57-Portfolio/static/css/main.3cd50aa7.css.map",
-    "main.610194ff.js.map": "/MinhPhuongK57-Portfolio/static/js/main.610194ff.js.map"
+    "main.b0ddf112.css.map": "/MinhPhuongK57-Portfolio/static/css/main.b0ddf112.css.map",
+    "main.a66a06a8.js.map": "/MinhPhuongK57-Portfolio/static/js/main.a66a06a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cd50aa7.css",
-    "static/js/main.610194ff.js"
+    "static/css/main.b0ddf112.css",
+    "static/js/main.a66a06a8.js"
   ]
 }
