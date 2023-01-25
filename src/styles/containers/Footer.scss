@@ -3,7 +3,7 @@
     position: relative;
     background: $color__black;
     color: #fff;
-    margin-top: 4rem;
+    // margin-top: 4rem;
     padding-top: 8rem;
     width: 100%;
     text-align: center;
@@ -227,7 +227,7 @@
 @media only screen and (max-width: 1024px) {
     .footer {
         padding-top: 10rem;
-        margin-top: 6rem;
+        // margin-top: 6rem;
 
         &__contact {
             @include dl__flex;

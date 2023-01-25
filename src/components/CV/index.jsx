@@ -15,7 +15,7 @@ function CV() {
                 <a href={Resume} download className="cv--button wow animate__flipInX"
                     data-wow-duration="0.3s"
                     data-wow-delay="0.2s">
-                    Download CV now
+                    Download the CV here
                 </a>
                 <div className="cv--img wow animate__pulse"
                     data-wow-duration="0.3s"

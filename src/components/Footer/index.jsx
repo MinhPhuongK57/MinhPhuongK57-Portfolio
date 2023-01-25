@@ -27,7 +27,7 @@ function Footer() {
     return (
         <footer className="container" id="contact">
             <div className="footer">
-                <div
+                {/* <div
                     className="footer__contact  wow animate__fadeInUp"
                     data-wow-duration="0.2s"
                     data-wow-delay="0.1s"
@@ -36,7 +36,7 @@ function Footer() {
                         Form Contact
                     </h4>
                     <FormContact />
-                </div>
+                </div> */}
                 <h2
                     className="footer-logo wow animate__fadeInUp"
                     data-wow-duration="0.3s"
