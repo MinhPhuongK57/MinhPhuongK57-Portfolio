@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
-import "./styles/app.scss";
-import Home from "./pages/Home";
-import WOW from "wowjs";
+import React, { useEffect } from 'react';
+import './styles/App.scss';
+import Home from './pages/Home';
+import WOW from 'wowjs';
 
 function App() {
     useEffect(() => {
@@ -12,7 +12,7 @@ function App() {
     }, []);
 
     return (
-        <div className="container">
+        <div className='container'>
             <Home />
         </div>
     );
