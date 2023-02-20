@@ -1,0 +1,188 @@
+.loadingScreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #0c1821 0%, #23394b 100%);
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+
+    &__loader {
+        position: absolute;
+        top: calc(50% - 32px);
+        left: calc(50% - 32px);
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        perspective: 800px;
+        margin-top: -3rem;
+
+        &--inner {
+            position: absolute;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+
+            &.one {
+                left: 0%;
+                top: 0%;
+                animation: rotate-one 1s linear infinite;
+                border-bottom: 3px solid #EFEFFA;
+            }
+
+            &.two {
+                right: 0%;
+                top: 0%;
+                animation: rotate-two 1s linear infinite;
+                border-right: 3px solid #EFEFFA;
+            }
+
+            &.three {
+                right: 0%;
+                bottom: 0%;
+                animation: rotate-three 1s linear infinite;
+                border-top: 3px solid #EFEFFA;
+            }
+        }
+    }
+
+    @keyframes rotate-one {
+        0% {
+            transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+        }
+
+        100% {
+            transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+        }
+    }
+
+    @keyframes rotate-two {
+        0% {
+            transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+        }
+
+        100% {
+            transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+        }
+    }
+
+    @keyframes rotate-three {
+        0% {
+            transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+        }
+
+        100% {
+            transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+        }
+    }
+
+    //Loading Name
+    &__typed {
+        position: relative;
+        display: inline;
+        padding-top: 8rem;
+
+
+        &--out {
+            background-image: $textLinearGradient__primary;
+            background-image: -webkit-gradient($textLinearGradient__primary);
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 0.25rem solid #fff;
+            font-size: 3rem;
+            line-height: 3.7rem;
+            font-weight: 700;
+            animation: typing 8s steps(40) infinite, blinking 1s infinite;
+        }
+
+        &--outMobile {
+            display: none;
+        }
+
+        &--noti {
+            position: absolute;
+            bottom: -120%;
+            right: -17%;
+            color: $color__yellow;
+            font-size: 0.8rem;
+            white-space: nowrap;
+        }
+    }
+
+    @keyframes typing {
+
+        0%,
+        100% {
+            width: 0;
+        }
+
+        50%,
+        90% {
+            width: 100%;
+        }
+    }
+
+    @keyframes blinking {
+
+        0%,
+        100% {
+            border-color: transparent;
+        }
+
+        50% {
+            border-color: #fff;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .loadingScreen {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        text-align: center;
+
+        &__typed {
+
+            &--out {
+                width: 100%;
+                font-size: 1.8rem;
+                white-space: wrap;
+            }
+
+            &--outMobile {
+                display: none;
+            }
+
+            &--noti {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .loadingScreen {
+        width: 100%;
+        max-width: 100%;
+
+        &__typed {
+
+            &--out {
+                display: none;
+            }
+
+            &--outMobile {
+                display: block;
+            }
+
+            &--noti {
+                display: none;
+            }
+        }
+    }
+}

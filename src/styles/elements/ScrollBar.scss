@@ -1,14 +1,15 @@
 /*-----Scroll-----*/
 ::-webkit-scrollbar {
-    max-width: 0.8rem;
+    max-width: 0.3rem;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $bgLinearGradient__primary;
-    border-radius: 0.5rem;
+    background: $linearScrollbar;
+    border-radius: 0.2rem;
+    height: 8rem;
 
     &:hover {
-        background: $bgLinearGradient__primary;
+        background: $linearScrollbar;
     }
 }
 

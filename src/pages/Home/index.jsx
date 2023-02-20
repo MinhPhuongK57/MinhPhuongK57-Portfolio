@@ -1,14 +1,14 @@
-import React from "react";
-import Sliders from "../../components/SliderHeader/Sliders";
-import NavbarResponsive from "../../components/NavbarResponsive";
-import Introduce from "../../components/Introduce";
-import Navbar from "../../components/Navbar";
-import Feature from "../../components/Feature";
-import CV from "../../components/CV";
-import Product from "../../components/Product";
-import Slider from "../../components/SliderPersonalities";
-import Footer from "../../components/Footer";
-import ScrollToTop from "../../components/ScrollToTop";
+import CV from '../../components/CV';
+import Feature from '../../components/Feature';
+import Footer from '../../components/Footer';
+import Introduce from '../../components/Introduce';
+import Navbar from '../../components/Navbar';
+import NavbarResponsive from '../../components/NavbarResponsive';
+import Product from '../../components/Product';
+import React from 'react';
+import ScrollToTop from '../../components/ScrollToTop';
+import Slider from '../../components/SliderPersonalities';
+import Sliders from '../../components/SliderHeader/Sliders';
 
 function Home() {
     return (

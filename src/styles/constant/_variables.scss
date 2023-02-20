@@ -11,11 +11,14 @@ $color__success: #F5FAFE;
 $color__coral: coral;
 $color__white: #fff;
 $color__black: #1f2028;
+$color__yellow: #F8D2A9;
 
 //Linear Gradient
-$bgLinearGradient__primary:linear-gradient(90.06deg, #f86086 -4.45%, #fe8d77 104.12%);
+$bgLinearGradient__primary:linear-gradient(to right top, #fc6c8f, #ffb86c);
 $bgLinearGradient__secondary:linear-gradient(90.06deg, #2cccff -4.45%, #22dfbf 104.12%);
-$textLinearGradient__primary:linear-gradient(90.06deg, #f86086 -4.45%, $color__coral 104.12%);
+$bgLinearGradient__third:linear-gradient(90.06deg, #6f95a2 -4.45%, #cbece6 104.12%);
+$textLinearGradient__primary:linear-gradient(to right top, #fc6c8f, #ffb86c);
+$linearScrollbar: linear-gradient(45deg, #e39bf7 36%, #fcc1d0 98.49%);
 
 //Box Shadow
 $boxShadow__primary: 3px 1px 15px 2px rgb(237, 248, 255);

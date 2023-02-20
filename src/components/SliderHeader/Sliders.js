@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
-import SliderContent from "./SliderContent";
-import Dots from "./Dots";
-import Arrows from "./Arrows";
-import SliderImages from "../../static/data/slider-images";
+import React, { useEffect, useState } from 'react';
+
+import Arrows from './Arrows';
+import Dots from './Dots';
+import SliderContent from './SliderContent';
+import SliderImages from '../../static/data/slider-images';
 
 const ken = SliderImages.length - 1;
 
@@ -17,15 +18,11 @@ function Sliders() {
     }, [activeIndex]);
 
     return (
-        <header className="sliders">
+        <header className='sliders'>
             <SliderContent activeIndex={activeIndex} SliderImages={SliderImages} />
             <Arrows
-                prevSlide={() =>
-                    setActiveIndex(activeIndex < 1 ? ken : activeIndex - 1)
-                }
-                nextSlide={() =>
-                    setActiveIndex(activeIndex === ken ? 0 : activeIndex + 1)
-                }
+                prevSlide={() => setActiveIndex(activeIndex < 1 ? ken : activeIndex - 1)}
+                nextSlide={() => setActiveIndex(activeIndex === ken ? 0 : activeIndex + 1)}
             />
             <Dots
                 activeIndex={activeIndex}

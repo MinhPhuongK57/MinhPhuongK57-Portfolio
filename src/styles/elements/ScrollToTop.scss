@@ -12,15 +12,15 @@
     border-radius: 2.5rem;
     font-size: 1.5rem;
     outline: none;
-    transition: all 0.3s linear;
+    transition: all 0.4s linear;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-}
 
-#btn__scrollToTop:hover {
-    transition: all 0.3s linear;
-    color: $color__coral;
-    box-shadow: $boxShadow__primary;
-    background: $color__success;
+    &:hover {
+        transition: all 0.5s linear;
+        color: $color__coral;
+        box-shadow: $boxShadow__primary;
+        background: $color__success;
+    }
 }
 
 /*-----End Scroll go up-----*/

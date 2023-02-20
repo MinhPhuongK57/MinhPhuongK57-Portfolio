@@ -1,15 +1,17 @@
-import React from "react";
-import { navbarLinkCenter, navbarLinkRight } from "../../static/data/navbar";
+import { navbarLinkCenter, navbarLinkRight } from '../../static/data/navbar';
+
+import React from 'react';
+
 const Navbar = () => {
     const RenderNavbarCenter = () => {
         return navbarLinkCenter.map((item, index) => {
             return (
-                <li key={index} className="navbar__website--li">
+                <li key={index} className='navbar__website--li'>
                     <a
                         href={item.link}
-                        className="navbar__website--link wow animate__fadeInDown"
-                        data-wow-duration="0.4s"
-                        data-wow-delay="0.3s"
+                        className='navbar__website--link wow animate__fadeInDown'
+                        data-wow-duration='0.4s'
+                        data-wow-delay='0.3s'
                     >
                         {item.name}
                     </a>
@@ -26,8 +28,8 @@ const Navbar = () => {
                 data-wow-duration={item.duration}
                 data-wow-delay={item.delay}
                 data-title={item.dataTitle}
-                target="_blank"
-                rel="noreferrer"
+                target='_blank'
+                rel='noreferrer'
             >
                 <i className={item.icon}></i>
             </a>
@@ -36,24 +38,24 @@ const Navbar = () => {
     const RenderLogo = () => {
         return (
             <a
-                href="MinhPhuongK57-Portfolio"
-                className="logo__page wow animate__fadeInBottomLeft"
-                data-wow-duration="0.4s"
-                data-wow-delay="0.2s"
+                href='MinhPhuongK57-Portfolio'
+                className='logo__page wow animate__fadeInBottomLeft'
+                data-wow-duration='0.4s'
+                data-wow-delay='0.2s'
             >
-                Ken<span className="coral">Cry</span>stal
+                Ken<span className='coral'>Cry</span>stal
             </a>
         );
     };
 
     return (
-        <menu className="navbar__website">
-            <div className="container__navbar">
+        <menu className='navbar__website'>
+            <div className='container__navbar'>
                 <RenderLogo />
-                <ul className="navbar__website--main">
+                <ul className='navbar__website--main'>
                     <RenderNavbarCenter />
                 </ul>
-                <div className="navbar__website--list">
+                <div className='navbar__website--list'>
                     <RenderNavbarRight />
                 </div>
             </div>
