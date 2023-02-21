@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/MinhPhuongK57-Portfolio/static/css/main.8d64c42e.css",
-    "main.js": "/MinhPhuongK57-Portfolio/static/js/main.97c7eeaf.js",
+    "main.css": "/MinhPhuongK57-Portfolio/static/css/main.113915fd.css",
+    "main.js": "/MinhPhuongK57-Portfolio/static/js/main.8e513348.js",
+    "static/media/bg.png": "/MinhPhuongK57-Portfolio/static/media/bg.0f854565bea4ad929a2d.png",
     "static/media/MinhPhuong.png": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.8b52cfe88ff7488c6836.png",
+    "static/media/vscode.png": "/MinhPhuongK57-Portfolio/static/media/vscode.0ffa59c5da9e265855c2.png",
     "static/media/MinhPhuong.pdf": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.b54a93f29069015dbebf.pdf",
+    "static/media/PTS.png": "/MinhPhuongK57-Portfolio/static/media/PTS.8b81f90c837ce0417573.png",
+    "static/media/illus.jpg": "/MinhPhuongK57-Portfolio/static/media/illus.2bcb09075a13caccb6af.jpg",
+    "static/media/figma.png": "/MinhPhuongK57-Portfolio/static/media/figma.08d276f7a00629f42c9c.png",
+    "static/media/typescript.png": "/MinhPhuongK57-Portfolio/static/media/typescript.659e4b9351cf1baa6930.png",
+    "static/media/react.png": "/MinhPhuongK57-Portfolio/static/media/react.fcbfffe24441143885e2.png",
+    "static/media/js.png": "/MinhPhuongK57-Portfolio/static/media/js.f973a572f906d4a4b4d5.png",
+    "static/media/css.png": "/MinhPhuongK57-Portfolio/static/media/css.0b78fa4363b35837c441.png",
+    "static/media/github.png": "/MinhPhuongK57-Portfolio/static/media/github.bc0f1dde7b58d553f0e4.png",
+    "static/media/html.png": "/MinhPhuongK57-Portfolio/static/media/html.e60e1b8cbe20637b6c3e.png",
+    "static/media/nextjs.png": "/MinhPhuongK57-Portfolio/static/media/nextjs.f5e5d408ba5a26099e18.png",
     "index.html": "/MinhPhuongK57-Portfolio/index.html",
-    "main.8d64c42e.css.map": "/MinhPhuongK57-Portfolio/static/css/main.8d64c42e.css.map",
-    "main.97c7eeaf.js.map": "/MinhPhuongK57-Portfolio/static/js/main.97c7eeaf.js.map"
+    "main.113915fd.css.map": "/MinhPhuongK57-Portfolio/static/css/main.113915fd.css.map",
+    "main.8e513348.js.map": "/MinhPhuongK57-Portfolio/static/js/main.8e513348.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d64c42e.css",
-    "static/js/main.97c7eeaf.js"
+    "static/css/main.113915fd.css",
+    "static/js/main.8e513348.js"
   ]
 }
