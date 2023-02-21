@@ -2,6 +2,7 @@ import CV from '../../components/CV';
 import Feature from '../../components/Feature';
 import Footer from '../../components/Footer';
 import Introduce from '../../components/Introduce';
+import MySkill from 'components/MySkill';
 import Navbar from '../../components/Navbar';
 import NavbarResponsive from '../../components/NavbarResponsive';
 import Product from '../../components/Product';
@@ -21,6 +22,7 @@ function Home() {
             <CV />
             <Product />
             <Slider />
+            <MySkill />
             <Footer />
             <ScrollToTop />
         </div>
