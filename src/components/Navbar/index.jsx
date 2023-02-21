@@ -38,7 +38,7 @@ const Navbar = () => {
     const RenderLogo = () => {
         return (
             <a
-                href='MinhPhuongK57-Portfolio'
+                href='#'
                 className='logo__page wow animate__fadeInBottomLeft'
                 data-wow-duration='0.4s'
                 data-wow-delay='0.2s'
