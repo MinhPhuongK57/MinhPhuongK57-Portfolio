@@ -1,4 +1,5 @@
 import CV from '../../components/CV';
+import Contact from 'components/Contact';
 import Feature from '../../components/Feature';
 import Footer from '../../components/Footer';
 import Introduce from '../../components/Introduce';
@@ -23,6 +24,7 @@ function Home() {
             <Product />
             <Slider />
             <MySkill />
+            <Contact />
             <Footer />
             <ScrollToTop />
         </div>

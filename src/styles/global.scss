@@ -5,23 +5,25 @@
 }
 
 html {
-    font-size: 100%;
+    font-size: 90%;
     scroll-behavior: smooth;
     scroll-padding-top: 3rem;
 }
 
 body {
-    font-family: $fontFamily__primary;
     width: 100%;
     min-height: 100vh;
+    font-family: $fontFamily__primary;
     background: #fafaff;
-    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 a {
     outline: none;
 }
+
 
 img {
     pointer-events: none;

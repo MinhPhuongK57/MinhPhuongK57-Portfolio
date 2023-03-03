@@ -1,10 +1,8 @@
 /*---------------Footer-----------------*/
 .footer {
     position: relative;
-    // background-image: linear-gradient(to right, #0c1821 0%, #23394b 100%);
     color: #fff;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -13,112 +11,14 @@
     &::after {
         position: absolute;
         content: "";
-        background-image: url("../../assets/bg.png");
-        background-repeat: no-repeat;
-        background-position: bottom center;
-        background-size: 100% 100%;
+        background: $color__black;
         width: 100%;
         height: 200%;
-        top: -100%;
         right: 0;
         bottom: 0;
         left: 0;
         z-index: -1;
         object-fit: cover;
-    }
-
-    &__contact {
-        @include dl__flex;
-        flex-direction: row;
-        position: absolute;
-        overflow: hidden;
-        width: 80%;
-        height: 8rem;
-        top: -4rem;
-        left: 10%;
-        padding: 0 2rem;
-        background-color: #fff;
-        color: $color__coral;
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-        border-bottom: 1.5px solid $color__coral;
-        border-top: 1.5px solid $color__coral;
-        border-radius: 0.3rem;
-
-        &--title {
-            padding-right: 4rem;
-            font-size: 1.2rem;
-            letter-spacing: 1px;
-            font-weight: 500;
-        }
-
-        &--form {
-            @include dl__flex;
-            flex-direction: row;
-            position: relative;
-
-            .form-input {
-                padding: 0 101px 0 16px;
-                width: 450px;
-                height: 3.8rem;
-                color: $color__coral;
-                font-size: 1rem;
-                border-radius: 0.4rem;
-                border: 1px solid #eee;
-                transition: 0.25s ease;
-
-                &:focus {
-                    border: 1px solid $color__coral;
-                }
-
-                &:not(:placeholder-shown)+.form-label,
-                &:focus+.form-label {
-                    top: 0;
-                    left: 6px;
-                    padding: 0 10px;
-                    color: $color__coral;
-                    background-color: #fff;
-                    display: inline-block;
-                }
-            }
-
-            .form-label {
-                position: absolute;
-                display: inline;
-                top: 50%;
-                left: 16px;
-                color: #999;
-                font-size: 0.9rem;
-                letter-spacing: 0.5px;
-                font-weight: normal;
-                user-select: none;
-                pointer-events: none;
-                transform: translateY(-50%);
-                transition: 0.25s ease;
-            }
-
-            .form-btn {
-                position: absolute;
-                padding: 0.3rem 0.8rem;
-                height: 2.6rem;
-                right: 0.6rem;
-                top: 0.6rem;
-                background: $bgLinearGradient__primary;
-                color: #fff;
-                font-size: 0.9rem;
-                font-weight: normal;
-                letter-spacing: 1px;
-                border-radius: 0.4rem;
-                border: 1px solid $color__coral;
-                opacity: 0.9;
-                transition: all 0.25s linear;
-
-                &:hover {
-                    visibility: visible;
-                    opacity: 1;
-                    transition: all 0.25s linear;
-                }
-            }
-        }
     }
 
     &-logo {
@@ -231,49 +131,10 @@
     }
 }
 
-@media only screen and (max-width: 1075px) {
-    .footer {
-        &__contact {
-            &--title {
-                font-weight: 500;
-                font-size: 1.2rem;
-            }
-        }
-    }
-}
-
 @media only screen and (max-width: 1024px) {
     .footer {
         padding-top: 5rem;
         // margin-top: 6rem;
-
-        &__contact {
-            @include dl__flex;
-            justify-content: space-around;
-            flex-direction: column;
-            width: 90%;
-            height: 12rem;
-            left: 5%;
-            top: -6rem;
-            margin: 0 auto;
-            padding: 1.5rem 0;
-
-            &--title {
-                padding-left: 1rem;
-                font-size: 1.2rem;
-            }
-
-            &--form {
-                .form-input {
-                    width: 600px;
-                }
-
-                .form-btn {
-                    padding: 0rem 1.5rem;
-                    font-size: 1rem;
-                }
-            }
-        }
 
         &-logo {
             font-family: $fontFamily__secondary;
@@ -364,76 +225,8 @@
     }
 }
 
-@media only screen and (max-width: 640px) {
-    .footer {
-        &__contact {
-            top: -9rem;
-            height: 18rem;
-            width: 100%;
-
-            &--title {
-                white-space: wrap;
-                text-align: left;
-                display: inline-block;
-                font-size: 1.2rem;
-                padding-left: 1.5rem;
-            }
-
-            &--form {
-                height: 8rem;
-                flex-direction: column;
-                width: 100%;
-
-                .form-input {
-                    width: 100%;
-                    max-width: 500px;
-                    height: 5rem;
-                    font-size: 1.1rem;
-                }
-
-                .form-label {
-                    position: absolute;
-                    top: 21.5%;
-                    font-size: 1rem;
-                }
-
-                .form-btn {
-                    margin-top: 1rem;
-                    position: relative;
-                    padding: 0.5rem 2rem;
-                    height: 4rem;
-                    font-size: 1.1rem;
-                }
-            }
-        }
-    }
-}
-
 @media only screen and (max-width: 520px) {
     .footer {
-        &__contact {
-            top: -11rem;
-            border-radius: 0;
-            padding: 0 1rem;
-            @include dl__flex;
-
-            &--title {
-                text-align: center;
-                font-size: 1.3rem;
-                white-space: wrap;
-                margin-bottom: 2rem;
-            }
-
-            &--form {
-                .form-input {
-                    font-size: 1.1rem;
-                }
-
-                .form-btn {
-                    margin-top: 1rem;
-                }
-            }
-        }
 
         &-logo {
             font-family: $fontFamily__secondary;

@@ -38,8 +38,8 @@ const Navbar = () => {
     const RenderLogo = () => {
         return (
             <a
-                href='#'
-                className='logo__page wow animate__fadeInBottomLeft'
+                href='/MinhPhuongK57-Portfolio/#'
+                className='logo__page wow animate__fadeInBottomLeft disabled__className'
                 data-wow-duration='0.4s'
                 data-wow-delay='0.2s'
             >

@@ -24,11 +24,6 @@ export const navbarLinkCenter = [
         link: '/MinhPhuongK57-Portfolio/#skills',
         name: 'skills',
     },
-    // {
-    //     id: 5,
-    //     link: "/MinhPhuongK57-Portfolio/#popup-article",
-    //     name: "about",
-    // },
     {
         id: 6,
         link: '/MinhPhuongK57-Portfolio/#contact',
@@ -72,6 +67,5 @@ export const navbarResponsive = [
     { id: 3, link: '/MinhPhuongK57-Portfolio/#cv', name: 'resume' },
     { id: 4, link: '/MinhPhuongK57-Portfolio/#product', name: 'product' },
     { id: 5, link: '/MinhPhuongK57-Portfolio/#skills', name: 'skill' },
-    // { id: 5, link: '/MinhPhuongK57-Portfolio/#popup-article', name: 'about me' },
     { id: 6, link: '/MinhPhuongK57-Portfolio/#contact', name: 'contact me' },
 ];

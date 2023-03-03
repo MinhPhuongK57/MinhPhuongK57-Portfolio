@@ -1,0 +1,605 @@
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    padding: 2rem;
+    top: -230px;
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 0.4rem;
+    position: relative;
+    overflow: hidden;
+
+    &__title {
+        position: relative;
+        font-family: $fontFamily__secondary;
+        display: inline-block;
+        padding: 0.7rem 1.5rem;
+        margin-bottom: 2rem;
+        background: #fff;
+        color: $color__secondary;
+        font-weight: 500;
+        font-size: 1.8rem;
+        text-transform: capitalize;
+        white-space: nowrap;
+        border-radius: 3rem;
+        box-shadow: 3px 2px 15px 2px rgb(240, 245, 250);
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 290%;
+            height: 0.5px;
+            left: -285%;
+            top: 50%;
+            background: $color__coral;
+            transform: translateY(-50%);
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 290%;
+            height: 0.5px;
+            top: 50%;
+            right: -285%;
+            background: $color__coral;
+            transform: translateY(-50%);
+        }
+    }
+
+    &__form {
+        @include dl__flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 4.5rem;
+        max-height: 300px;
+        overflow: hidden;
+
+        &--border {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 2rem;
+        }
+
+        &--groupInput {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        &--input {
+            padding: 0rem 1rem;
+            width: 300px;
+            height: 3.8rem;
+            color: $color__coral;
+            font-size: 1rem;
+            border-radius: 0.4rem;
+            border: 1px solid #eee;
+            transition: 0.25s ease;
+            background-color: white;
+
+            &:focus {
+                border: 1px solid $color__coral;
+            }
+        }
+
+        &--label {
+            position: absolute;
+            display: inline;
+            top: 50%;
+            left: 16px;
+            color: #999;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            font-weight: normal;
+            user-select: none;
+            pointer-events: none;
+            transform: translateY(-50%);
+            transition: 0.25s ease;
+        }
+
+        &--inputName {
+
+            &:not(:placeholder-shown)+.contact__form--labelName,
+            &:focus+.contact__form--labelName {
+                top: 0;
+                left: 6px;
+                padding: 0 10px;
+                color: $color__coral;
+                background-color: #fff;
+                display: inline-block;
+            }
+        }
+
+        &--inputEmail {
+
+            &:not(:placeholder-shown)+.contact__form--labelEmail,
+            &:focus+.contact__form--labelEmail {
+                top: 0;
+                left: 6px;
+                padding: 0 10px;
+                color: $color__coral;
+                background-color: #fff;
+                display: inline-block;
+            }
+        }
+
+        &--inputSubject {
+
+            &:not(:placeholder-shown)+.contact__form--labelSubject,
+            &:focus+.contact__form--labelSubject {
+                top: 0;
+                left: 6px;
+                padding: 0 10px;
+                color: $color__coral;
+                background-color: #fff;
+                display: inline-block;
+            }
+        }
+
+        &--borderTextArea {
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+
+        &--inputMessage {
+            width: 100%;
+            position: relative;
+            line-height: 1.2rem;
+            padding: 1.6rem 1rem;
+            overflow-y: scroll;
+            width: 500px;
+            letter-spacing: 0.1rem;
+            height: 100%;
+            color: $color__coral;
+            font-size: 1rem;
+            border-radius: 0.4rem;
+            border: 1px solid #eee;
+            transition: 0.25s ease;
+            background-color: white;
+        }
+
+        &--labelMessage {
+            z-index: 2;
+            top: 15%;
+        }
+
+        &--textarea {
+            resize: none;
+
+            &:focus {
+                border: 1px solid $color__coral;
+            }
+
+            &:not(:placeholder-shown)+.contact__form--labelMessage,
+            &:focus+.contact__form--labelMessage {
+                top: 0;
+                left: 6px;
+                padding: 0 10px;
+                color: $color__coral;
+                background-color: #fff;
+                display: inline-block;
+            }
+        }
+
+        &--btn {
+            margin-top: 1.5rem;
+            z-index: 2;
+            padding: 0.8rem 2rem;
+            right: 0.4rem;
+            bottom: 0.4rem;
+            background: $bgLinearGradient__primary;
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: normal;
+            letter-spacing: 1px;
+            border-radius: 0.4rem;
+            border: 1px solid $color__coral;
+            opacity: 0.9;
+            transition: all 0.25s linear;
+
+            &:hover {
+                visibility: visible;
+                opacity: 1;
+                transition: all 0.25s linear;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .contact {
+        width: 100%;
+        top: -100px;
+        height: 550px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        &__form {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            max-height: 400px;
+
+            &--groupInput {
+                margin-top: 1rem;
+                display: grid;
+                grid-gap: 1.5rem;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            &--border {
+                margin-bottom: 1rem;
+            }
+
+            &--borderTextArea {
+                margin-top: 1rem;
+                width: 100%;
+                height: 250px;
+                width: 100%;
+            }
+
+            &--inputMessage {
+                width: 100%;
+            }
+
+            &--btn {
+                padding: 0.9rem 2rem;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .contact {
+        width: 100%;
+        top: -100px;
+        height: 550px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        &__form {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            max-height: 400px;
+
+            &--groupInput {
+                margin-top: 1rem;
+                display: grid;
+                grid-gap: 1.5rem;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            &--border {
+                margin-bottom: 1rem;
+            }
+
+            &--borderTextArea {
+                margin-top: 1rem;
+                width: 100%;
+                height: 250px;
+                width: 100%;
+            }
+
+            &--inputMessage {
+                width: 100%;
+            }
+
+            &--btn {
+                padding: 0.9rem 2rem;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width:1128px) {
+    .contact {
+        width: 100%;
+        top: -100px;
+        height: 550px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        &__form {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            max-height: 400px;
+
+            &--groupInput {
+                margin-top: 1rem;
+                display: grid;
+                grid-gap: 1.5rem;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            &--border {
+                margin-bottom: 1rem;
+            }
+
+            &--borderTextArea {
+                margin-top: 1rem;
+                width: 100%;
+                height: 250px;
+                width: 100%;
+            }
+
+            &--inputMessage {
+                width: 100%;
+            }
+
+            &--btn {
+                padding: 0.9rem 2rem;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .contact {
+        width: 100%;
+        top: -100px;
+        height: 550px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        &__form {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            max-height: 400px;
+
+            &--groupInput {
+                margin-top: 1rem;
+                display: grid;
+                grid-gap: 1.5rem;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            &--border {
+                margin-bottom: 1rem;
+            }
+
+            &--borderTextArea {
+                margin-top: 1rem;
+                width: 100%;
+                height: 250px;
+                width: 100%;
+            }
+
+            &--inputMessage {
+                width: 100%;
+            }
+
+            &--btn {
+                padding: 0.9rem 2rem;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .contact {
+        width: 100%;
+        top: -100px;
+        height: 550px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        &__form {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            max-height: 400px;
+
+            &--groupInput {
+                margin-top: 1rem;
+                display: grid;
+                grid-gap: 1.5rem;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            &--border {
+                margin-bottom: 1rem;
+            }
+
+            &--borderTextArea {
+                margin-top: 1rem;
+                width: 100%;
+                height: 250px;
+                width: 100%;
+            }
+
+            &--inputMessage {
+                width: 100%;
+            }
+
+            &--btn {
+                padding: 0.9rem 2rem;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .contact {
+        width: 100%;
+        top: -100px;
+        height: 550px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        &__form {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            max-height: 400px;
+
+            &--groupInput {
+                margin-top: 1rem;
+                display: grid;
+                grid-gap: 1.5rem;
+                grid-template-columns: 1fr;
+            }
+
+            &--input {
+                width: 100%;
+            }
+
+            &--border {
+                margin-bottom: 1rem;
+            }
+
+            &--borderTextArea {
+                margin-top: 1rem;
+                width: 100%;
+                height: 250px;
+                width: 100%;
+            }
+
+            &--inputMessage {
+                width: 100%;
+            }
+
+            &--btn {
+                padding: 0.9rem 2rem;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .contact {
+        width: 100%;
+        top: -100px;
+        height: 620px;
+        border-radius: 0;
+        padding: 1.5rem;
+
+        &__form {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            max-height: 500px;
+
+            &--groupInput {
+                margin-top: 1rem;
+                display: grid;
+                grid-gap: 1rem;
+                grid-template-columns: 1fr;
+            }
+
+            &--input {
+                width: 100%;
+                font-size: 1.4rem;
+            }
+
+            &--borderTextArea {
+                margin-top: 1rem;
+                width: 100%;
+                height: 250px;
+                width: 100%;
+            }
+
+            &--inputMessage {
+                width: 100%;
+            }
+
+            &--btn {
+                width: 100%;
+                font-size: 1.3rem;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .contact {
+        width: 100%;
+        top: -100px;
+        height: 620px;
+        border-radius: 0;
+        padding: 1.5rem;
+
+        &__form {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            max-height: 500px;
+
+            &--groupInput {
+                margin-top: 1rem;
+                display: grid;
+                grid-gap: 1rem;
+                grid-template-columns: 1fr;
+            }
+
+            &--input {
+                width: 100%;
+                font-size: 1.4rem;
+            }
+
+            &--borderTextArea {
+                margin-top: 1rem;
+                width: 100%;
+                height: 250px;
+                width: 100%;
+            }
+
+            &--inputMessage {
+                width: 100%;
+            }
+
+            &--btn {
+                width: 100%;
+                font-size: 1.3rem;
+            }
+
+        }
+    }
+}
