@@ -3,6 +3,7 @@ import './styles/App.scss';
 import React, { useEffect, useState } from 'react';
 
 import Home from './pages/Home';
+import LoadingScreen from 'contents/LoadingScreen';
 import WOW from 'wowjs';
 
 function App() {
@@ -21,10 +22,6 @@ function App() {
         }, 8200);
     }, []);
 
-    return (
-        <div className='container'>
-            {loading ? <LoadingScreen /> : <Home />}
-        </div>
-    );
+    return <div className='container'>{loading ? <LoadingScreen /> : <Home />}</div>;
 }
 export default App;
