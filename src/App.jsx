@@ -23,8 +23,7 @@ function App() {
 
     return (
         <div className='container'>
-            {/* {loading ? <LoadingScreen /> : <Home />} */}
-            <Home />
+            {loading ? <LoadingScreen /> : <Home />}
         </div>
     );
 }
