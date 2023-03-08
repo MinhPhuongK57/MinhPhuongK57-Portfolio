@@ -1,3 +1,4 @@
+import Logo from 'elements/Logo';
 import React from 'react';
 
 function SliderContent({ activeIndex, SliderImages }) {
@@ -12,7 +13,7 @@ function SliderContent({ activeIndex, SliderImages }) {
                             data-wow-duration='0.4s'
                             data-wow-delay='0.2s'
                         >
-                            Ken<span className='coral'>Cry</span>stal
+                            <Logo />
                         </a>
                     </div>
                     <img className='sliders-image' src={slide.urls} alt={slide.urls} />

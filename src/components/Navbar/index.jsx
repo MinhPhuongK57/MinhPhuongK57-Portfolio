@@ -1,5 +1,6 @@
 import { navbarLinkCenter, navbarLinkRight } from '../../static/data/navbar';
 
+import Logo from 'elements/Logo';
 import React from 'react';
 
 const Navbar = () => {
@@ -43,7 +44,7 @@ const Navbar = () => {
                 data-wow-duration='0.4s'
                 data-wow-delay='0.2s'
             >
-                Ken<span className='coral'>Cry</span>stal
+                <Logo />
             </a>
         );
     };

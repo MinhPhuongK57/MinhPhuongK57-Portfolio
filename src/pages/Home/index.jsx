@@ -17,12 +17,12 @@ function Home() {
         <div>
             <NavbarResponsive />
             <Sliders />
-            <Introduce />
+            {/* <Introduce /> */}
             <Navbar />
-            <Feature />
+            {/* <Feature /> */}
             <CV />
             <Product />
-            <Slider />
+            {/* <Slider /> */}
             <MySkill />
             <Contact />
             <Footer />

@@ -19,7 +19,7 @@ function CV() {
                     Download the CV here
                 </a>
                 <div className='cv--img wow animate__pulse' data-wow-duration='0.3s' data-wow-delay='0.2s'>
-                    <img src={Images} alt='CV' />
+                    <img src={Images} alt='Resume' />
                 </div>
                 <div className='line-loading'></div>
             </div>

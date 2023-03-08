@@ -1,10 +1,12 @@
 import './styles/App.scss';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
 import Home from './pages/Home';
-import LoadingScreen from 'contents/LoadingScreen';
 import WOW from 'wowjs';
+
+// import LoadingScreen from 'contents/LoadingScreen';
+
 
 function App() {
     useEffect(() => {
@@ -14,14 +16,19 @@ function App() {
         }).init();
     }, []);
 
-    const [loading, setLoading] = useState(true);
+    // const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(false);
-        }, 8200);
-    }, []);
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setLoading(false);
+    //     }, 8200);
+    // }, []);
 
-    return <div className='container'>{loading ? <LoadingScreen /> : <Home />}</div>;
+    // return <div className='container'>{loading ? <LoadingScreen /> : <Home />}</div>;
+    return (
+        <div className='container'>
+            <Home />
+        </div>
+    );
 }
 export default App;

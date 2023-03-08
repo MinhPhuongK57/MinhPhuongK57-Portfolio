@@ -8,6 +8,8 @@ html {
     font-size: 90%;
     scroll-behavior: smooth;
     scroll-padding-top: 3rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -15,8 +17,6 @@ body {
     min-height: 100vh;
     font-family: $fontFamily__primary;
     background: #fafaff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
 

@@ -1,3 +1,4 @@
+import Logo from 'elements/Logo';
 import React from 'react';
 import { footerIcon } from '../../static/data/footer';
 
@@ -38,10 +39,10 @@ function Footer() {
                     <FormContact />
                 </div> */}
                 <h2 className='footer-logo wow animate__fadeInUp' data-wow-duration='0.3s' data-wow-delay='0.2s'>
-                    Ken<span className='coral'>Cry</span>stal
+                    <Logo />
                 </h2>
                 <p className='footer-title wow animate__fadeInUp' data-wow-duration='0.4s' data-wow-delay='0.3s'>
-                    Contact
+                    Contact Me
                 </p>
                 <div className='footer__list'>
                     <RenderFooterIcon />

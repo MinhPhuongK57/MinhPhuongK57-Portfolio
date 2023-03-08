@@ -4,28 +4,28 @@ export const navbarLinkCenter = [
         link: '/MinhPhuongK57-Portfolio/#',
         name: 'home',
     },
+    // {
+    //     id: 2,
+    //     link: '/MinhPhuongK57-Portfolio/#feature',
+    //     name: 'features',
+    // },
     {
         id: 2,
-        link: '/MinhPhuongK57-Portfolio/#feature',
-        name: 'features',
-    },
-    {
-        id: 3,
         link: '/MinhPhuongK57-Portfolio/#cv',
         name: 'resume',
     },
     {
-        id: 4,
+        id: 3,
         link: '/MinhPhuongK57-Portfolio/#product',
         name: 'products',
     },
     {
-        id: 5,
+        id: 4,
         link: '/MinhPhuongK57-Portfolio/#skills',
         name: 'skills',
     },
     {
-        id: 6,
+        id: 5,
         link: '/MinhPhuongK57-Portfolio/#contact',
         name: 'contact',
     },
@@ -63,9 +63,9 @@ export const navbarLinkRight = [
 
 export const navbarResponsive = [
     { id: 1, link: '/MinhPhuongK57-Portfolio/', name: 'home' },
-    { id: 2, link: '/MinhPhuongK57-Portfolio/#feature', name: 'feature' },
-    { id: 3, link: '/MinhPhuongK57-Portfolio/#cv', name: 'resume' },
-    { id: 4, link: '/MinhPhuongK57-Portfolio/#product', name: 'product' },
-    { id: 5, link: '/MinhPhuongK57-Portfolio/#skills', name: 'skill' },
-    { id: 6, link: '/MinhPhuongK57-Portfolio/#contact', name: 'contact me' },
+    // { id: 2, link: '/MinhPhuongK57-Portfolio/#feature', name: 'feature' },
+    { id: 2, link: '/MinhPhuongK57-Portfolio/#cv', name: 'resume' },
+    { id: 3, link: '/MinhPhuongK57-Portfolio/#product', name: 'product' },
+    { id: 4, link: '/MinhPhuongK57-Portfolio/#skills', name: 'skill' },
+    { id: 5, link: '/MinhPhuongK57-Portfolio/#contact', name: 'contact me' },
 ];
