@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/MinhPhuongK57-Portfolio/static/css/main.5769b173.css",
-    "main.js": "/MinhPhuongK57-Portfolio/static/js/main.75621918.js",
+    "main.js": "/MinhPhuongK57-Portfolio/static/js/main.159e065d.js",
     "static/media/bg.png": "/MinhPhuongK57-Portfolio/static/media/bg.0f854565bea4ad929a2d.png",
-    "static/media/MinhPhuong.png": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.85f6f55fadb4e4de5779.png",
+    "static/media/MinhPhuong.png": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.59f5955007051c9ca054.png",
     "static/media/vscode.png": "/MinhPhuongK57-Portfolio/static/media/vscode.0ffa59c5da9e265855c2.png",
-    "static/media/MinhPhuong.pdf": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.6498fe57b40108479b11.pdf",
+    "static/media/MinhPhuong.pdf": "/MinhPhuongK57-Portfolio/static/media/MinhPhuong.28e915434d271c80d8a1.pdf",
     "static/media/PTS.png": "/MinhPhuongK57-Portfolio/static/media/PTS.8b81f90c837ce0417573.png",
     "static/media/illus.jpg": "/MinhPhuongK57-Portfolio/static/media/illus.2bcb09075a13caccb6af.jpg",
     "static/media/figma.png": "/MinhPhuongK57-Portfolio/static/media/figma.08d276f7a00629f42c9c.png",
@@ -18,10 +18,10 @@
     "static/media/nextjs.png": "/MinhPhuongK57-Portfolio/static/media/nextjs.f5e5d408ba5a26099e18.png",
     "index.html": "/MinhPhuongK57-Portfolio/index.html",
     "main.5769b173.css.map": "/MinhPhuongK57-Portfolio/static/css/main.5769b173.css.map",
-    "main.75621918.js.map": "/MinhPhuongK57-Portfolio/static/js/main.75621918.js.map"
+    "main.159e065d.js.map": "/MinhPhuongK57-Portfolio/static/js/main.159e065d.js.map"
   },
   "entrypoints": [
     "static/css/main.5769b173.css",
-    "static/js/main.75621918.js"
+    "static/js/main.159e065d.js"
   ]
 }
